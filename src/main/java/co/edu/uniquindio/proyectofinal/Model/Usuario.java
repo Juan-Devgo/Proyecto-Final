@@ -2,10 +2,16 @@ package co.edu.uniquindio.proyectofinal.Model;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
-public abstract class Usuario {
+import java.io.Serial;
+import java.io.Serializable;
+
+public abstract class Usuario implements Serializable {
     protected  String nombre, apellido, cedula;
 
-    //Constructor
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    //Constructores
     public  Usuario(String nombre, String apellido, String cedula){
         if(nombre == null || nombre.isBlank() || apellido == null || apellido.isBlank() || cedula == null || cedula.isBlank()){
             throw  new CadenaInvalidaException();
@@ -14,6 +20,8 @@ public abstract class Usuario {
         this.apellido = apellido;
         this.cedula = cedula;
     }
+
+    public Usuario() {}
 
     //Getters
     public String getNombre() {

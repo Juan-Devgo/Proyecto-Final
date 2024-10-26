@@ -4,6 +4,7 @@ import javax.swing.*;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
+import java.time.LocalDateTime;
 import java.util.LinkedList;
 import java.util.Optional;
 import java.util.function.Predicate;
@@ -16,15 +17,18 @@ public class MarketPlace implements GestionMarketPlace{
     private LinkedList<Producto> productos;
 
 
-    public MarketPlace() {
-        setNombre("N/D");
+    public MarketPlace(String nombre) {
+        if(nombre == null || nombre.isBlank()) {
+            this.nombre = "N/D";
+        }
+        this.nombre = nombre;
         this.usuarios = new LinkedList<>();
         this.productos = new LinkedList<>();
     }
 
-    public static GestionMarketPlace getInstance() {
+    public static GestionMarketPlace getInstance(String nombre) {
         if(instancia == null) {
-            instancia = new MarketPlace();
+            instancia = new MarketPlace(nombre);
         }
         return instancia;
     }

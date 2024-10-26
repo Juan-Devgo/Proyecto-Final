@@ -1,7 +1,7 @@
 package co.edu.uniquindio.proyectofinal.Model;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.Optional;
 import java.util.function.Predicate;
@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
-public class Vendedor extends Usuario {
+public class Vendedor extends Usuario implements Serializable {
     private String direccion;
     private LinkedList<Producto> productos;
     private LinkedList<Vendedor> aliados;
@@ -21,13 +21,28 @@ public class Vendedor extends Usuario {
     private LinkedList<Usuario> likes;
     private LinkedList<Chat> chats;
 
-    //Constructor
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    //Constructores
     public Vendedor(String nombre, String apellido, String cedula, String direccion) {
         super(nombre, apellido, cedula);
         if (direccion == null || direccion.isBlank()) {
             throw new CadenaInvalidaException();
         }
         this.direccion = direccion;
+
+        this.productos = new LinkedList<>();
+        this.aliados = new LinkedList<>();
+        this.sugerencias = new LinkedList<>();
+        this.solicitudes = new LinkedList<>();
+        this.resenias = new LinkedList<>();
+        this.likes = new LinkedList<>();
+        this.chats = new LinkedList<>();
+    }
+
+    public Vendedor() {
+        super();
 
         this.productos = new LinkedList<>();
         this.aliados = new LinkedList<>();
@@ -69,7 +84,7 @@ public class Vendedor extends Usuario {
         actualizarSugerencias();
         aliados.forEach(Vendedor::actualizarSugerencias);
 
-        if(!buscarChat(vendedor).isPresent()){
+        if(buscarChat(vendedor).isEmpty()){
             throw new ChatNoEncontradoException();
         }
         chats.remove(buscarChat(vendedor).get());
@@ -85,7 +100,7 @@ public class Vendedor extends Usuario {
             throw new DatoNuloException();
         }
 
-        if(!buscarChat(emisor).isPresent()){
+        if(buscarChat(emisor).isEmpty()){
             throw new ChatNoEncontradoException();
         }
 
@@ -98,8 +113,7 @@ public class Vendedor extends Usuario {
         Predicate<Vendedor> condicion2 = vendedor2 -> !aliados.contains(vendedor2);
 
         LinkedList<Vendedor> aliadosDeAliados = obtenerAliadosDeAliados();
-        aliadosDeAliados.stream().filter(condicion1).filter(condicion2).collect(Collectors.toCollection(LinkedList::new));
-        this.sugerencias = aliadosDeAliados;
+        this.sugerencias = aliadosDeAliados.stream().filter(condicion1).filter(condicion2).collect(Collectors.toCollection(LinkedList::new));
     }
 
     //Obtener aliados de aliados
@@ -140,7 +154,7 @@ public class Vendedor extends Usuario {
         ordenarResenias();
     }
 
-    //Ordenar resenias por fecha y hora
+    //Ordenar reseñas por fecha y hora
     private void ordenarResenias() {
         resenias.sort((r1, r2) -> {
             int i = 0;
@@ -172,7 +186,7 @@ public class Vendedor extends Usuario {
 
     //Agregar nueva solicitud de vínculo
     public boolean agregarSolicitudVinculo(Vendedor emisor) {
-        Boolean disponible = false;
+        boolean disponible = false;
 
         if(emisor == null){
             throw new DatoNuloException();
@@ -180,7 +194,7 @@ public class Vendedor extends Usuario {
 
         if(aliados.size() < 10){
             disponible = true;
-            solicitudes.add(new SolicitudVinculo(emisor, LocalDate.now(), LocalTime.now()));
+            solicitudes.add(new SolicitudVinculo(emisor));
         }
 
         return disponible;
@@ -202,8 +216,7 @@ public class Vendedor extends Usuario {
     //Obtener información general sobre el vendedor
     @Override
     public String toString() {
-        String infoVendedor = nombre + " " + apellido + " " + cedula + " " + direccion;
-        return  infoVendedor;
+        return nombre + " " + apellido + " " + cedula + " " + direccion;
     }
 
     //Getters
@@ -241,5 +254,54 @@ public class Vendedor extends Usuario {
             throw new CadenaInvalidaException();
         }
         this.direccion = direccion;
+    }
+
+    public void setAliados(LinkedList<Vendedor> aliados) {
+        if(aliados == null){
+            throw new DatoNuloException();
+        }
+        this.aliados = aliados;
+    }
+
+    public void setProductos(LinkedList<Producto> productos) {
+        if(productos == null){
+            throw new DatoNuloException();
+        }
+        this.productos = productos;
+    }
+
+    public void setSugerencias(LinkedList<Vendedor> sugerencias) {
+        if(sugerencias == null){
+            throw new DatoNuloException();
+        }
+        this.sugerencias = sugerencias;
+    }
+
+    public void setChats(LinkedList<Chat> chats) {
+        if(chats == null){
+            throw new DatoNuloException();
+        }
+        this.chats = chats;
+    }
+
+    public void setLikes(LinkedList<Usuario> likes) {
+        if(likes == null){
+            throw new DatoNuloException();
+        }
+        this.likes = likes;
+    }
+
+    public void setSolicitudes(LinkedList<SolicitudVinculo> solicitudes) {
+        if(solicitudes == null){
+            throw new DatoNuloException();
+        }
+        this.solicitudes = solicitudes;
+    }
+
+    public void setResenias(LinkedList<Comentario> resenias) {
+        if(resenias == null){
+            throw new DatoNuloException();
+        }
+        this.resenias = resenias;
     }
 }

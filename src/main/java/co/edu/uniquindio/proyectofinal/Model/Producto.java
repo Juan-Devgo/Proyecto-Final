@@ -1,25 +1,32 @@
 package co.edu.uniquindio.proyectofinal.Model;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.LinkedList;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
-public class Producto {
+public class Producto implements Serializable {
     private String nombre, descripcion, categoria;
-    private final String codigo;
-    private double precio;
+    private String codigo;
+    private Double precio;
     private String rutaImagen;
-    private final LocalDate fechaPublicacion;
-    private final LocalTime horaPublicacion;
+    private String fechaPublicacion;
+    private String horaPublicacion;
     private LinkedList<Usuario> likes;
     private LinkedList<Comentario> comentarios;
     private EstadoProducto estado;
 
-    //Constructor
-    public Producto(String nombre, String descripcion, String categoria, String codigo, double precio, String rutaImagen) {
+    @Serial
+    private static  final long serialVersionUID = 1L;
+
+    //Constructores
+    public Producto(String nombre, String descripcion, String categoria, String codigo, Double precio, String rutaImagen) {
         if(nombre == null || nombre.isBlank() || descripcion == null || descripcion.isBlank() || categoria == null || categoria.isBlank() || codigo == null || codigo.isBlank() || rutaImagen == null || rutaImagen.isBlank()){
             throw new CadenaInvalidaException();
         }
@@ -28,14 +35,21 @@ public class Producto {
         this.codigo = codigo;
         this.rutaImagen = rutaImagen;
 
-        if(precio < 0){
+        if(precio.isNaN() || precio < 0){
             throw new NumeroInvalidoException();
         }
         this.precio = precio;
 
-        this.fechaPublicacion = LocalDate.now();
-        this.horaPublicacion = LocalTime.now();
+        this.fechaPublicacion = LocalDate.now().format(DateTimeFormatter.ISO_LOCAL_DATE);
+        this.horaPublicacion = LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME);
+        this.likes = new LinkedList<>();
+        this.comentarios = new LinkedList<>();
         this.estado = EstadoProducto.BORRADOR;
+    }
+
+    public Producto(){
+        this.likes = new LinkedList<>();
+        this.comentarios = new LinkedList<>();
     }
 
     //Recibir like
@@ -99,8 +113,7 @@ public class Producto {
     //Obtener información general sobre el producto
     @Override
     public String toString() {
-        String infoProducto = nombre + " " + descripcion + " " + codigo + " " + precio + " " + fechaPublicacion + " " + horaPublicacion;
-        return infoProducto;
+        return nombre + " " + descripcion + " " + codigo + " " + precio + " " + fechaPublicacion + " " + horaPublicacion;
     }
 
     //Cambiar de estado
@@ -133,21 +146,27 @@ public class Producto {
     public String getCodigo() {
         return codigo;
     }
-    public double getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
     public String getRutaImagen() {
         return rutaImagen;
     }
-    public LocalDate getFechaPublicacion() {
+    public String getFechaPublicacion() {
         return fechaPublicacion;
     }
-    public LocalTime getHoraPublicacion() {
+    public String getHoraPublicacion() {
         return horaPublicacion;
     }
+
     public LocalDateTime getFechaYHoraPublicacion() {
-        return LocalDateTime.of(fechaPublicacion, horaPublicacion);
+        return LocalDateTime.of(LocalDate.parse(fechaPublicacion), LocalTime.parse(horaPublicacion));
     }
+
+    public String getFechaYHoraPublicacionGUI() {
+        return DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).format(getFechaYHoraPublicacion());
+    }
+
     public int getLikes() {
         return likes.size();
     }
@@ -183,16 +202,64 @@ public class Producto {
         }
         this.categoria = categoria;
     }
-    public void setImagen(String rutaImagen) {
+    public void setCodigo(String codigo) {
+        if(codigo == null || codigo.isBlank()){
+            throw new CadenaInvalidaException();
+        }
+        this.codigo = codigo;
+    }
+    public void setPrecio(Double precio) {
+        if(precio.isNaN() || precio < 0){
+            throw new NumeroInvalidoException();
+        }
+        this.precio = precio;
+    }
+    public void setRutaImagen(String rutaImagen) {
         if(rutaImagen == null){
             throw new DatoNuloException();
         }
         this.rutaImagen = rutaImagen;
     }
-    public void setPrecio(double precio) {
-        if(precio >= 0){
-            throw new NumeroInvalidoException();
+    public void setFechaPublicacion(LocalDate fechaPublicacion) {
+        if(fechaPublicacion == null){
+            throw new DatoNuloException();
         }
-        this.precio = precio;
+        this.fechaPublicacion = fechaPublicacion.format(DateTimeFormatter.ISO_LOCAL_DATE);
+    }
+    public void setFechaPublicacion(String fechaPublicacion) {
+        if(fechaPublicacion == null){
+            throw new DatoNuloException();
+        }
+        this.fechaPublicacion = fechaPublicacion;
+    }
+    public void setHoraPublicacion(LocalTime horaPublicacion) {
+        if(horaPublicacion == null){
+            throw new DatoNuloException();
+        }
+        this.horaPublicacion = horaPublicacion.format(DateTimeFormatter.ISO_LOCAL_TIME);
+    }
+    public void setHoraPublicacion(String horaPublicacion) {
+        if(horaPublicacion == null){
+            throw new DatoNuloException();
+        }
+        this.horaPublicacion = horaPublicacion;
+    }
+    public void setLikes(LinkedList<Usuario> likes) {
+        if(likes == null){
+            throw new DatoNuloException();
+        }
+        this.likes = likes;
+    }
+    public void setComentarios(LinkedList<Comentario> comentarios) {
+        if(comentarios == null){
+            throw new DatoNuloException();
+        }
+        this.comentarios = comentarios;
+    }
+    public void setEstado(EstadoProducto estado) {
+        if(estado == null){
+            throw new DatoNuloException();
+        }
+        this.estado = estado;
     }
 }
