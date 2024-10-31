@@ -1,5 +1,7 @@
 package co.edu.uniquindio.proyectofinal.Model;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -7,11 +9,12 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.Formatter;
 import java.util.LinkedList;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
-public class Producto implements Serializable {
+public class Producto implements Serializable,Escribible {
     private String nombre, descripcion, categoria;
     private String codigo;
     private Double precio;
@@ -50,6 +53,46 @@ public class Producto implements Serializable {
     public Producto(){
         this.likes = new LinkedList<>();
         this.comentarios = new LinkedList<>();
+    }
+
+    //Obtener formato para escribir en el reporte
+    @Override
+    public Formatter getFormatoReporte() throws IOException {
+        Formatter formato = new Formatter(new FileWriter(Utilidades.getInstancia().getRuta("rutaReportesProductos"), true));
+        formato.format("%s de código %s:\n\nPrecio: %f\nDescripción: %s\nRuta Imagen: %s\nFecha de publicación: %s\nHora de publicación: %s\nLikes: %d (%s)\nComentarios: %d (%s)\nEstado: %s\n\n", 
+                            nombre, codigo, precio, descripcion, rutaImagen, fechaPublicacion, horaPublicacion, getLikes(), getNombresUsuarios(likes), comentarios.size(), getNombresComentarios(), estado);
+        return formato;
+    }
+
+    //Métodos para obtener las cadenas necesarias para el reporte
+
+    private String getNombresComentarios() {
+        String nombres = ""; 
+
+        for(Comentario comentario : comentarios) {
+            if(comentarios.getLast().equals(comentario)){
+                 nombres += comentario.getEmisor().getNombre() + ".";
+            } else {
+                 nombres += comentario.getEmisor().getNombre() + ", ";
+            }
+        }
+
+        return nombres;
+    }
+
+    //Obtener nombres de una lista de usuarios 
+    private String getNombresUsuarios(LinkedList<Usuario> vendedores){
+        String nombres = ""; 
+
+        for(Usuario usuario  : vendedores) {
+            if(vendedores.getLast().equals(usuario)){
+                 nombres += usuario.getNombre() + ".";
+            } else {
+                 nombres += usuario.getNombre() + ", ";
+            }
+        }
+
+        return nombres;
     }
 
     //Recibir like

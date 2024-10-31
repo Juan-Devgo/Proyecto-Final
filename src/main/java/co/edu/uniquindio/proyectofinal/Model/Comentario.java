@@ -37,6 +37,12 @@ public class Comentario implements Serializable {
 
     public Comentario() {}
 
+    //to String
+    @Override 
+    public String toString() {
+        return "Emisor:" + emisor.getNombre() + " mensaje: " + mensaje + " fecha: " + fecha + " hora: " + hora;
+    }
+
     //Getters
     public Usuario getEmisor() {
         return emisor;

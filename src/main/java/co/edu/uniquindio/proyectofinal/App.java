@@ -6,7 +6,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.LinkedList;
 import java.util.NoSuchElementException;
+import java.util.stream.Collectors;
 
 
 import co.edu.uniquindio.proyectofinal.Model.*;
@@ -26,39 +28,60 @@ public class App extends Application {
     public static void main(String[] args) {
 //        launch();
         GestionMarketPlace marketPlace = MarketPlace.getInstance("Otro MarketPlace");
-        marketPlace.crearAdministrador("Juan", "Admin", "1313");
-        marketPlace.crearVendedor("Angie", "Grajales", "1092", "Pueblo Tapado Norte");
-        marketPlace.crearVendedor("Angie", "Katerine", "2901", "Por el terminal");
-        Vendedor usuarioEnLinea = marketPlace.loginVendedor("1092");
-        System.out.println(marketPlace.buscarAdministradorPorCedula("1313").isPresent());
+
+        Vendedor angie = marketPlace.loginVendedor("1092");
+        Vendedor amyi = marketPlace.loginVendedor("2901");
+        Administrador juan = marketPlace.loginAdministrador("1137");
+
+        System.out.println(marketPlace.buscarAdministradorPorCedula("1137").isPresent());
         System.out.println(marketPlace.buscarVendedorPorNombre("Angie").isPresent());
         System.out.println(marketPlace.buscarUsuarioPorCedula("2901").isPresent());
         System.out.println(marketPlace.buscarVendedorPorCedula("1092").isPresent());
-        Producto producto1 = new Producto("Cámara", "Cámara muy buena, en muy buen estado", "Electrodomesticos", "00001", 120000.0, "file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre%204/Programación%20III/Proyecto%20Final/src/main/resources/imagenes/camara.jpg");
-        usuarioEnLinea.agregarProducto(producto1);
-        marketPlace.agregarProducto(producto1);
-        Producto producto2 = new Producto("Mt15", "Una carcacha", "Vehículos", "00002", 0.5, "file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre%204/Programación%20III/Proyecto%20Final/src/main/resources/imagenes/mt15.png");
-        usuarioEnLinea.agregarProducto(producto2);
+        System.out.println(marketPlace.buscarProductoPorCodigo("00001").isPresent());
+        System.out.println(marketPlace.buscarProductoPorCodigo("00002").isPresent());
+    
+        // boolean bool1 = marketPlace.solicitarVinculoVendedor(angie, amyi);
 
-        try {
-            boolean boolean1 = marketPlace.solicitarVinculoVendedor(marketPlace.buscarVendedorPorCedula("2901").get(), usuarioEnLinea);
-            SolicitudVinculo solicitud = usuarioEnLinea.getSolicitudes().getFirst();
-            System.out.println(solicitud.getEmisor() + " " + solicitud.getFechaYHoraGUI());
-            if(boolean1) {
-                marketPlace.aceptarVinculoVendedor(usuarioEnLinea, solicitud);
-            }
-            System.out.println(usuarioEnLinea.getAliados().getFirst());
-            System.out.println(marketPlace.buscarVendedorPorCedula("2901").get().getAliados().getFirst());
-            marketPlace.enviarMensaje(marketPlace.buscarVendedorPorCedula("2901").get(), usuarioEnLinea, "Pero si es el ei");
-            System.out.println(usuarioEnLinea.buscarChat(marketPlace.buscarVendedorPorCedula("2901").get()).get().getMensajes());
+        // if(bool1){
 
-            Utilidades.getInstancia().serializarXML(usuarioEnLinea, "usuarioEnLinea");
-            usuarioEnLinea = (Vendedor) Utilidades.getInstancia().deserializarXML("usuarioEnLinea");
-            System.out.println(usuarioEnLinea);
-        } catch (NoSuchElementException | IOException e) {
-            e.fillInStackTrace();
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
+        //     SolicitudVinculo sol = amyi.getSolicitudes().getLast();
+
+        //     try {
+        //         Utilidades.getInstancia().serializarXML(sol, "Productos", "solicitud1.xml");
+        //     } catch (Exception e) {
+        //         e.fillInStackTrace();
+        //     }
+
+        //     marketPlace.aceptarVinculoVendedor(amyi, sol);
+        // }
+
+        // angie.agregarProducto(marketPlace.buscarProductoPorCodigo("00001").get());
+
+        // Chat chat = angie.getChats().getFirst();
+        
+        // try {
+        //     Utilidades.getInstancia().serializarXML(chat, "Productos", "chat1.xml");
+        // } catch (Exception e) {
+        //     e.fillInStackTrace();
+        // }
+
+        // angie.recibirResenia(juan, "Excelente servicio 2000/10 y God");
+
+        // Comentario resenia1 = angie.getResenias().getFirst();
+
+        // try {
+        //     Utilidades.getInstancia().serializarXML(resenia1, "Productos", "resenia1.xml");
+        // } catch (Exception e) {
+        //     e.fillInStackTrace();
+        // }
+        
+        System.out.println(angie.getAliados());
+        System.out.println(angie.getProductos());
+        System.out.println(angie.getChats());
+        System.out.println(angie.getResenias());
+
+        HiloPersistencia runnablePersistencia = HiloPersistencia.getInstancia(marketPlace);
+        new Thread(runnablePersistencia).start();
+
     }
 }

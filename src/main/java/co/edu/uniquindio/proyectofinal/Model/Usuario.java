@@ -5,7 +5,7 @@ import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 import java.io.Serial;
 import java.io.Serializable;
 
-public abstract class Usuario implements Serializable {
+public abstract class Usuario implements Serializable, Escribible{
     protected  String nombre, apellido, cedula;
 
     @Serial

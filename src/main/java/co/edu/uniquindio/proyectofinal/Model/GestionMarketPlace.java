@@ -1,12 +1,20 @@
 package co.edu.uniquindio.proyectofinal.Model;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Optional;
 
 public interface GestionMarketPlace {
+    //Inicialización
+    void inicializarPersistencia() throws Exception;
+    //Serializar Datos
+    void serializarDatos() throws IOException;
+    //generar reportes
+    void generarReportes() throws IOException;
     //Métodos crear y agregar.
     void crearAdministrador(String nombre, String apellido, String cedula);
     void crearVendedor(String nombre, String apellido, String cedula, String direccion);
+    void agregarUsuario(Usuario usuario);
     void agregarProducto(Producto producto);
     //Métodos eliminar.
     void eliminarVendedor(Vendedor vendedor);

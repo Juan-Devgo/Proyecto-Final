@@ -27,6 +27,12 @@ public class Chat implements Serializable {
         this.mensajes = new LinkedList<>();
     }
 
+    //toString
+    @Override
+    public String toString() {
+        return  emisor.getNombre() + " " + mensajes.toString();
+    }
+
     //Getters
     public Vendedor getEmisor() {
         return emisor;
