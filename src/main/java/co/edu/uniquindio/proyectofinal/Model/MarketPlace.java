@@ -13,7 +13,7 @@ import java.util.function.Predicate;
 import java.util.logging.Level;
 import java.util.stream.Collectors;
 
-public class MarketPlace implements GestionMarketPlace{
+public class MarketPlace implements GestionMarketPlace {
     private String nombre;
     private static GestionMarketPlace instancia;
     private final LinkedList<Usuario> usuarios;
@@ -21,15 +21,22 @@ public class MarketPlace implements GestionMarketPlace{
 
     private static final Utilidades utilidades = Utilidades.getInstancia();
 
+    private final Servidor servidor;
 
     public MarketPlace(String nombre) {
-        utilidades.log(Level.INFO, "Inicializando MarketPlace");
+
+        utilidades.log(Level.INFO, "Inicializando MarketPlace...");
         if(nombre == null || nombre.isBlank()) {
             this.nombre = "N/D";
         }
+
         this.nombre = nombre;
         this.usuarios = new LinkedList<>();
         this.productos = new LinkedList<>();
+
+        this.servidor = new Servidor();
+        new Thread(servidor).start();
+
         try {
             inicializarPersistencia();
         } catch (Exception e) {

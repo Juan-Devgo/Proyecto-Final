@@ -1,0 +1,11 @@
+Mt15 de código 00002:
+
+Precio: 1,000000
+Descripción: Una carcacha
+Ruta Imagen: file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre%204/Programación%20III/Proyecto%20Final/src/main/resources/imagenes/mt15.png
+Fecha de publicación: 2024-10-30
+Hora de publicación: 12:22:51.5833339
+Likes: 0 ()
+Comentarios: 0 ()
+Estado: BORRADOR
+

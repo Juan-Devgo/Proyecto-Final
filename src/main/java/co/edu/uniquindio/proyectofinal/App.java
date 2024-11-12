@@ -25,6 +25,15 @@ public class App extends Application {
         stage.show();
     }
 
+    public static void setRoot(String fxml) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.setTitle(fxml);
+        stage.show();
+    }
+
     public static void main(String[] args) {
 //        launch();
         GestionMarketPlace marketPlace = MarketPlace.getInstance("Otro MarketPlace");
@@ -82,6 +91,5 @@ public class App extends Application {
 
         HiloPersistencia runnablePersistencia = HiloPersistencia.getInstancia(marketPlace);
         new Thread(runnablePersistencia).start();
-
     }
 }

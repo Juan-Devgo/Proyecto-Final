@@ -47,7 +47,7 @@ public class Producto implements Serializable,Escribible {
         this.horaPublicacion = LocalTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME);
         this.likes = new LinkedList<>();
         this.comentarios = new LinkedList<>();
-        this.estado = EstadoProducto.BORRADOR;
+        this.estado = EstadoProducto.PUBLICADO;
     }
 
     public Producto(){
@@ -166,10 +166,6 @@ public class Producto implements Serializable,Escribible {
 
     public void cambiarAPublicado() {
         this.estado = EstadoProducto.PUBLICADO;
-    }
-
-    public void cambiarABorrador() {
-        this.estado = EstadoProducto.BORRADOR;
     }
 
     public void cambiarACancelado() {

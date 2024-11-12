@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SolicitudController">
+   <children>
+      <Button fx:id="eliminar_bt" layoutX="407.0" layoutY="301.0" mnemonicParsing="false" onAction="#eliminarSolicitud" style="-fx-background-color: #4f772d;" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="14.0" />
+         </font></Button>
+      <Label layoutX="222.0" layoutY="14.0" text="SOLICITUDES">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font></Label>
+      <TableView fx:id="listaSolicitudes_tv" layoutX="40.0" layoutY="62.0" prefHeight="200.0" prefWidth="457.0">
+         <columns>
+            <TableColumn fx:id="nombre_t" prefWidth="237.0" text="Nombre" />
+            <TableColumn fx:id="cedula_t" prefWidth="219.0" text="Cédula" />
+         </columns>
+      </TableView>
+      <Button fx:id="aceptar_bt" layoutX="309.0" layoutY="301.0" mnemonicParsing="false" onAction="#aceptarSolicitud" style="-fx-background-color: #4f772d;" text="Aceptar" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="14.0" />
+         </font></Button>
+      <Button fx:id="volver_bt" layoutX="55.0" layoutY="301.0" mnemonicParsing="false" onAction="#cambiarPrincipal" style="-fx-background-color: #4f772d;" text="Volver" textFill="WHITE">
+         <font>
+            <Font name="Lucida Bright" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

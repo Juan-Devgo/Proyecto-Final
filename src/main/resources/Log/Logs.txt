@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2024-10-31T04:01:42.741184600Z</date>
-  <millis>1730347302741</millis>
-  <nanos>184600</nanos>
+  <date>2024-11-06T19:59:10.216874200Z</date>
+  <millis>1730923150216</millis>
+  <nanos>874200</nanos>
   <sequence>0</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Utilidades inicializado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.806643800Z</date>
-  <millis>1730347302806</millis>
-  <nanos>643800</nanos>
+  <date>2024-11-06T19:59:10.238802900Z</date>
+  <millis>1730923150238</millis>
+  <nanos>802900</nanos>
   <sequence>1</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Inicializando MarketPlace</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.807643600Z</date>
-  <millis>1730347302807</millis>
-  <nanos>643600</nanos>
+  <date>2024-11-06T19:59:10.238802900Z</date>
+  <millis>1730923150238</millis>
+  <nanos>802900</nanos>
   <sequence>2</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>Inicializando Persistencia de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.813987100Z</date>
-  <millis>1730347302813</millis>
-  <nanos>987100</nanos>
+  <date>2024-11-06T19:59:10.249764900Z</date>
+  <millis>1730923150249</millis>
+  <nanos>764900</nanos>
   <sequence>3</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -50,9 +50,9 @@
   <message>Accediendo a: src/main/resources/Archivos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.819298700Z</date>
-  <millis>1730347302819</millis>
-  <nanos>298700</nanos>
+  <date>2024-11-06T19:59:10.252754800Z</date>
+  <millis>1730923150252</millis>
+  <nanos>754800</nanos>
   <sequence>4</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>Intentando deserializar:  Cámara00001.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.820294700Z</date>
-  <millis>1730347302820</millis>
-  <nanos>294700</nanos>
+  <date>2024-11-06T19:59:10.253751200Z</date>
+  <millis>1730923150253</millis>
+  <nanos>751200</nanos>
   <sequence>5</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.910463700Z</date>
-  <millis>1730347302910</millis>
-  <nanos>463700</nanos>
+  <date>2024-11-06T19:59:10.387104400Z</date>
+  <millis>1730923150387</millis>
+  <nanos>104400</nanos>
   <sequence>6</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>Objeto deserializado con éxito de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.913460400Z</date>
-  <millis>1730347302913</millis>
-  <nanos>460400</nanos>
+  <date>2024-11-06T19:59:10.388100900Z</date>
+  <millis>1730923150388</millis>
+  <nanos>100900</nanos>
   <sequence>7</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.917461400Z</date>
-  <millis>1730347302917</millis>
-  <nanos>461400</nanos>
+  <date>2024-11-06T19:59:10.390110500Z</date>
+  <millis>1730923150390</millis>
+  <nanos>110500</nanos>
   <sequence>8</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>Registrando producto...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.919977300Z</date>
-  <millis>1730347302919</millis>
-  <nanos>977300</nanos>
+  <date>2024-11-06T19:59:10.390110500Z</date>
+  <millis>1730923150390</millis>
+  <nanos>110500</nanos>
   <sequence>9</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.921040Z</date>
-  <millis>1730347302921</millis>
-  <nanos>40000</nanos>
+  <date>2024-11-06T19:59:10.391091200Z</date>
+  <millis>1730923150391</millis>
+  <nanos>91200</nanos>
   <sequence>10</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -134,9 +134,9 @@
   <message>Ordenando productos por fecha...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.922640700Z</date>
-  <millis>1730347302922</millis>
-  <nanos>640700</nanos>
+  <date>2024-11-06T19:59:10.392086500Z</date>
+  <millis>1730923150392</millis>
+  <nanos>86500</nanos>
   <sequence>11</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -146,9 +146,9 @@
   <message>Productos ordenados por fecha.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.923709100Z</date>
-  <millis>1730347302923</millis>
-  <nanos>709100</nanos>
+  <date>2024-11-06T19:59:10.393083400Z</date>
+  <millis>1730923150393</millis>
+  <nanos>83400</nanos>
   <sequence>12</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -158,9 +158,9 @@
   <message>Producto agregado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.924640700Z</date>
-  <millis>1730347302924</millis>
-  <nanos>640700</nanos>
+  <date>2024-11-06T19:59:10.394081300Z</date>
+  <millis>1730923150394</millis>
+  <nanos>81300</nanos>
   <sequence>13</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -170,9 +170,9 @@
   <message>Intentando deserializar:  Mt1500002.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.925637100Z</date>
-  <millis>1730347302925</millis>
-  <nanos>637100</nanos>
+  <date>2024-11-06T19:59:10.395077700Z</date>
+  <millis>1730923150395</millis>
+  <nanos>77700</nanos>
   <sequence>14</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -182,9 +182,9 @@
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.929696600Z</date>
-  <millis>1730347302929</millis>
-  <nanos>696600</nanos>
+  <date>2024-11-06T19:59:10.406040600Z</date>
+  <millis>1730923150406</millis>
+  <nanos>40600</nanos>
   <sequence>15</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -194,9 +194,9 @@
   <message>Objeto deserializado con éxito de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.930694Z</date>
-  <millis>1730347302930</millis>
-  <nanos>694000</nanos>
+  <date>2024-11-06T19:59:10.407037900Z</date>
+  <millis>1730923150407</millis>
+  <nanos>37900</nanos>
   <sequence>16</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -206,9 +206,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.932717600Z</date>
-  <millis>1730347302932</millis>
-  <nanos>717600</nanos>
+  <date>2024-11-06T19:59:10.408034300Z</date>
+  <millis>1730923150408</millis>
+  <nanos>34300</nanos>
   <sequence>17</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -218,9 +218,9 @@
   <message>Registrando producto...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.934678300Z</date>
-  <millis>1730347302934</millis>
-  <nanos>678300</nanos>
+  <date>2024-11-06T19:59:10.409031400Z</date>
+  <millis>1730923150409</millis>
+  <nanos>31400</nanos>
   <sequence>18</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -230,9 +230,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.935674600Z</date>
-  <millis>1730347302935</millis>
-  <nanos>674600</nanos>
+  <date>2024-11-06T19:59:10.410027200Z</date>
+  <millis>1730923150410</millis>
+  <nanos>27200</nanos>
   <sequence>19</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -242,9 +242,9 @@
   <message>Ordenando productos por fecha...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.940748400Z</date>
-  <millis>1730347302940</millis>
-  <nanos>748400</nanos>
+  <date>2024-11-06T19:59:10.414013700Z</date>
+  <millis>1730923150414</millis>
+  <nanos>13700</nanos>
   <sequence>20</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -254,9 +254,9 @@
   <message>Productos ordenados por fecha.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.941744700Z</date>
-  <millis>1730347302941</millis>
-  <nanos>744700</nanos>
+  <date>2024-11-06T19:59:10.415010500Z</date>
+  <millis>1730923150415</millis>
+  <nanos>10500</nanos>
   <sequence>21</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -266,9 +266,9 @@
   <message>Producto agregado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.944756200Z</date>
-  <millis>1730347302944</millis>
-  <nanos>756200</nanos>
+  <date>2024-11-06T19:59:10.416007800Z</date>
+  <millis>1730923150416</millis>
+  <nanos>7800</nanos>
   <sequence>22</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -278,9 +278,9 @@
   <message>Intentando deserializar:  Angie1092.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.951366500Z</date>
-  <millis>1730347302951</millis>
-  <nanos>366500</nanos>
+  <date>2024-11-06T19:59:10.418001Z</date>
+  <millis>1730923150418</millis>
+  <nanos>1000</nanos>
   <sequence>23</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -290,9 +290,9 @@
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.988235100Z</date>
-  <millis>1730347302988</millis>
-  <nanos>235100</nanos>
+  <date>2024-11-06T19:59:10.524709300Z</date>
+  <millis>1730923150524</millis>
+  <nanos>709300</nanos>
   <sequence>24</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -302,9 +302,9 @@
   <message>Objeto deserializado con éxito de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.989559300Z</date>
-  <millis>1730347302989</millis>
-  <nanos>559300</nanos>
+  <date>2024-11-06T19:59:10.525707500Z</date>
+  <millis>1730923150525</millis>
+  <nanos>707500</nanos>
   <sequence>25</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -314,9 +314,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.990520600Z</date>
-  <millis>1730347302990</millis>
-  <nanos>520600</nanos>
+  <date>2024-11-06T19:59:10.526701Z</date>
+  <millis>1730923150526</millis>
+  <nanos>701000</nanos>
   <sequence>26</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -326,9 +326,9 @@
   <message>Agregando usuario...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.991516500Z</date>
-  <millis>1730347302991</millis>
-  <nanos>516500</nanos>
+  <date>2024-11-06T19:59:10.528696200Z</date>
+  <millis>1730923150528</millis>
+  <nanos>696200</nanos>
   <sequence>27</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -338,9 +338,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.991516500Z</date>
-  <millis>1730347302991</millis>
-  <nanos>516500</nanos>
+  <date>2024-11-06T19:59:10.529706500Z</date>
+  <millis>1730923150529</millis>
+  <nanos>706500</nanos>
   <sequence>28</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -350,9 +350,9 @@
   <message>Usuario agregado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.992513700Z</date>
-  <millis>1730347302992</millis>
-  <nanos>513700</nanos>
+  <date>2024-11-06T19:59:10.530695500Z</date>
+  <millis>1730923150530</millis>
+  <nanos>695500</nanos>
   <sequence>29</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -362,9 +362,9 @@
   <message>Intentando deserializar:  Angie2901.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:42.992513700Z</date>
-  <millis>1730347302992</millis>
-  <nanos>513700</nanos>
+  <date>2024-11-06T19:59:10.532683100Z</date>
+  <millis>1730923150532</millis>
+  <nanos>683100</nanos>
   <sequence>30</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -374,9 +374,9 @@
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.014535200Z</date>
-  <millis>1730347303014</millis>
-  <nanos>535200</nanos>
+  <date>2024-11-06T19:59:10.570897800Z</date>
+  <millis>1730923150570</millis>
+  <nanos>897800</nanos>
   <sequence>31</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -386,9 +386,9 @@
   <message>Objeto deserializado con éxito de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.016544500Z</date>
-  <millis>1730347303016</millis>
-  <nanos>544500</nanos>
+  <date>2024-11-06T19:59:10.570897800Z</date>
+  <millis>1730923150570</millis>
+  <nanos>897800</nanos>
   <sequence>32</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -398,9 +398,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.017524300Z</date>
-  <millis>1730347303017</millis>
-  <nanos>524300</nanos>
+  <date>2024-11-06T19:59:10.571892500Z</date>
+  <millis>1730923150571</millis>
+  <nanos>892500</nanos>
   <sequence>33</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -410,9 +410,9 @@
   <message>Agregando usuario...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.017524300Z</date>
-  <millis>1730347303017</millis>
-  <nanos>524300</nanos>
+  <date>2024-11-06T19:59:10.571892500Z</date>
+  <millis>1730923150571</millis>
+  <nanos>892500</nanos>
   <sequence>34</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -422,9 +422,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.018871600Z</date>
-  <millis>1730347303018</millis>
-  <nanos>871600</nanos>
+  <date>2024-11-06T19:59:10.572889900Z</date>
+  <millis>1730923150572</millis>
+  <nanos>889900</nanos>
   <sequence>35</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -434,9 +434,9 @@
   <message>Usuario agregado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.019865500Z</date>
-  <millis>1730347303019</millis>
-  <nanos>865500</nanos>
+  <date>2024-11-06T19:59:10.573885800Z</date>
+  <millis>1730923150573</millis>
+  <nanos>885800</nanos>
   <sequence>36</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -446,9 +446,9 @@
   <message>Intentando deserializar:  Juan1137.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.019865500Z</date>
-  <millis>1730347303019</millis>
-  <nanos>865500</nanos>
+  <date>2024-11-06T19:59:10.577945800Z</date>
+  <millis>1730923150577</millis>
+  <nanos>945800</nanos>
   <sequence>37</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -458,9 +458,9 @@
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.022855300Z</date>
-  <millis>1730347303022</millis>
-  <nanos>855300</nanos>
+  <date>2024-11-06T19:59:10.591897800Z</date>
+  <millis>1730923150591</millis>
+  <nanos>897800</nanos>
   <sequence>38</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -470,9 +470,9 @@
   <message>Objeto deserializado con éxito de XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.022855300Z</date>
-  <millis>1730347303022</millis>
-  <nanos>855300</nanos>
+  <date>2024-11-06T19:59:10.591897800Z</date>
+  <millis>1730923150591</millis>
+  <nanos>897800</nanos>
   <sequence>39</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -482,9 +482,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.023973900Z</date>
-  <millis>1730347303023</millis>
-  <nanos>973900</nanos>
+  <date>2024-11-06T19:59:10.592894600Z</date>
+  <millis>1730923150592</millis>
+  <nanos>894600</nanos>
   <sequence>40</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -494,9 +494,9 @@
   <message>Agregando usuario...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.023973900Z</date>
-  <millis>1730347303023</millis>
-  <nanos>973900</nanos>
+  <date>2024-11-06T19:59:10.592894600Z</date>
+  <millis>1730923150592</millis>
+  <nanos>894600</nanos>
   <sequence>41</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -506,9 +506,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.024970500Z</date>
-  <millis>1730347303024</millis>
-  <nanos>970500</nanos>
+  <date>2024-11-06T19:59:10.593892800Z</date>
+  <millis>1730923150593</millis>
+  <nanos>892800</nanos>
   <sequence>42</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -518,9 +518,9 @@
   <message>Usuario agregado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.025966400Z</date>
-  <millis>1730347303025</millis>
-  <nanos>966400</nanos>
+  <date>2024-11-06T19:59:10.593892800Z</date>
+  <millis>1730923150593</millis>
+  <nanos>892800</nanos>
   <sequence>43</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -530,9 +530,9 @@
   <message>Datos de persistencia cargados exitosamente</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.025966400Z</date>
-  <millis>1730347303025</millis>
-  <nanos>966400</nanos>
+  <date>2024-11-06T19:59:10.595287Z</date>
+  <millis>1730923150595</millis>
+  <nanos>287000</nanos>
   <sequence>44</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -542,9 +542,9 @@
   <message>MarketPlace inicializado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.025966400Z</date>
-  <millis>1730347303025</millis>
-  <nanos>966400</nanos>
+  <date>2024-11-06T19:59:10.596289Z</date>
+  <millis>1730923150596</millis>
+  <nanos>289000</nanos>
   <sequence>45</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -554,9 +554,9 @@
   <message>Buscando Vendedor por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.035472600Z</date>
-  <millis>1730347303035</millis>
-  <nanos>472600</nanos>
+  <date>2024-11-06T19:59:10.597286500Z</date>
+  <millis>1730923150597</millis>
+  <nanos>286500</nanos>
   <sequence>46</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -566,9 +566,9 @@
   <message>Vendedor loggeado correctamente...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.037464800Z</date>
-  <millis>1730347303037</millis>
-  <nanos>464800</nanos>
+  <date>2024-11-06T19:59:10.598281300Z</date>
+  <millis>1730923150598</millis>
+  <nanos>281300</nanos>
   <sequence>47</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -578,9 +578,9 @@
   <message>Buscando Vendedor por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.040456Z</date>
-  <millis>1730347303040</millis>
-  <nanos>456000</nanos>
+  <date>2024-11-06T19:59:10.599278400Z</date>
+  <millis>1730923150599</millis>
+  <nanos>278400</nanos>
   <sequence>48</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -590,9 +590,9 @@
   <message>Buscando Vendedor por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.041461200Z</date>
-  <millis>1730347303041</millis>
-  <nanos>461200</nanos>
+  <date>2024-11-06T19:59:10.599278400Z</date>
+  <millis>1730923150599</millis>
+  <nanos>278400</nanos>
   <sequence>49</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -602,9 +602,9 @@
   <message>Vendedor loggeado correctamente...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.042753800Z</date>
-  <millis>1730347303042</millis>
-  <nanos>753800</nanos>
+  <date>2024-11-06T19:59:10.600278200Z</date>
+  <millis>1730923150600</millis>
+  <nanos>278200</nanos>
   <sequence>50</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -614,9 +614,9 @@
   <message>Buscando Vendedor por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.043755300Z</date>
-  <millis>1730347303043</millis>
-  <nanos>755300</nanos>
+  <date>2024-11-06T19:59:10.601272300Z</date>
+  <millis>1730923150601</millis>
+  <nanos>272300</nanos>
   <sequence>51</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -626,9 +626,9 @@
   <message>Buscando adiministrador por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.044750800Z</date>
-  <millis>1730347303044</millis>
-  <nanos>750800</nanos>
+  <date>2024-11-06T19:59:10.602269300Z</date>
+  <millis>1730923150602</millis>
+  <nanos>269300</nanos>
   <sequence>52</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -638,9 +638,9 @@
   <message>Administrador se ha loggeado correctamente...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.045748Z</date>
-  <millis>1730347303045</millis>
-  <nanos>748000</nanos>
+  <date>2024-11-06T19:59:10.603265Z</date>
+  <millis>1730923150603</millis>
+  <nanos>265000</nanos>
   <sequence>53</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -650,9 +650,9 @@
   <message>Buscando adiministrador por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.045748Z</date>
-  <millis>1730347303045</millis>
-  <nanos>748000</nanos>
+  <date>2024-11-06T19:59:10.604263Z</date>
+  <millis>1730923150604</millis>
+  <nanos>263000</nanos>
   <sequence>54</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -662,9 +662,9 @@
   <message>Buscando adiministrador por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.049281600Z</date>
-  <millis>1730347303049</millis>
-  <nanos>281600</nanos>
+  <date>2024-11-06T19:59:10.604263Z</date>
+  <millis>1730923150604</millis>
+  <nanos>263000</nanos>
   <sequence>55</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -674,9 +674,9 @@
   <message>Buscando vendedor por nombre...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.051282700Z</date>
-  <millis>1730347303051</millis>
-  <nanos>282700</nanos>
+  <date>2024-11-06T19:59:10.607253200Z</date>
+  <millis>1730923150607</millis>
+  <nanos>253200</nanos>
   <sequence>56</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -686,9 +686,9 @@
   <message>Buscando usuario por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.052279700Z</date>
-  <millis>1730347303052</millis>
-  <nanos>279700</nanos>
+  <date>2024-11-06T19:59:10.607253200Z</date>
+  <millis>1730923150607</millis>
+  <nanos>253200</nanos>
   <sequence>57</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -698,9 +698,9 @@
   <message>Buscando Vendedor por cédula...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.053277400Z</date>
-  <millis>1730347303053</millis>
-  <nanos>277400</nanos>
+  <date>2024-11-06T19:59:10.608250600Z</date>
+  <millis>1730923150608</millis>
+  <nanos>250600</nanos>
   <sequence>58</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -710,9 +710,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.054274300Z</date>
-  <millis>1730347303054</millis>
-  <nanos>274300</nanos>
+  <date>2024-11-06T19:59:10.609248500Z</date>
+  <millis>1730923150609</millis>
+  <nanos>248500</nanos>
   <sequence>59</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -722,9 +722,9 @@
   <message>Buscando producto por código...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.065581300Z</date>
-  <millis>1730347303065</millis>
-  <nanos>581300</nanos>
+  <date>2024-11-06T19:59:10.628182500Z</date>
+  <millis>1730923150628</millis>
+  <nanos>182500</nanos>
   <sequence>60</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
@@ -734,530 +734,2307 @@
   <message>Hilo de persistencia inicializado.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.067572800Z</date>
-  <millis>1730347303067</millis>
-  <nanos>572800</nanos>
+  <date>2024-11-06T19:59:10.630194800Z</date>
+  <millis>1730923150630</millis>
+  <nanos>194800</nanos>
   <sequence>61</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Hilo de persistencia: inicializado serialización.</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.069744300Z</date>
-  <millis>1730347303069</millis>
-  <nanos>744300</nanos>
+  <date>2024-11-06T19:59:10.631173200Z</date>
+  <millis>1730923150631</millis>
+  <nanos>173200</nanos>
   <sequence>62</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Iniciando serializacion de datos...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.070740400Z</date>
-  <millis>1730347303070</millis>
-  <nanos>740400</nanos>
+  <date>2024-11-06T19:59:10.632171700Z</date>
+  <millis>1730923150632</millis>
+  <nanos>171700</nanos>
   <sequence>63</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Angie1092.dat</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.071735800Z</date>
-  <millis>1730347303071</millis>
-  <nanos>735800</nanos>
+  <date>2024-11-06T19:59:10.633165100Z</date>
+  <millis>1730923150633</millis>
+  <nanos>165100</nanos>
   <sequence>64</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.094078700Z</date>
-  <millis>1730347303094</millis>
-  <nanos>78700</nanos>
+  <date>2024-11-06T19:59:10.642135Z</date>
+  <millis>1730923150642</millis>
+  <nanos>135000</nanos>
   <sequence>65</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a Dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.095074600Z</date>
-  <millis>1730347303095</millis>
-  <nanos>74600</nanos>
+  <date>2024-11-06T19:59:10.643146600Z</date>
+  <millis>1730923150643</millis>
+  <nanos>146600</nanos>
   <sequence>66</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.096072100Z</date>
-  <millis>1730347303096</millis>
-  <nanos>72100</nanos>
+  <date>2024-11-06T19:59:10.644137Z</date>
+  <millis>1730923150644</millis>
+  <nanos>137000</nanos>
   <sequence>67</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Angie1092.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.097578300Z</date>
-  <millis>1730347303097</millis>
-  <nanos>578300</nanos>
+  <date>2024-11-06T19:59:10.645127200Z</date>
+  <millis>1730923150645</millis>
+  <nanos>127200</nanos>
   <sequence>68</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.199958Z</date>
-  <millis>1730347303199</millis>
-  <nanos>958000</nanos>
+  <date>2024-11-06T19:59:10.732988500Z</date>
+  <millis>1730923150732</millis>
+  <nanos>988500</nanos>
   <sequence>69</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.200913100Z</date>
-  <millis>1730347303200</millis>
-  <nanos>913100</nanos>
+  <date>2024-11-06T19:59:10.733986600Z</date>
+  <millis>1730923150733</millis>
+  <nanos>986600</nanos>
   <sequence>70</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a XML...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.216008900Z</date>
-  <millis>1730347303216</millis>
-  <nanos>8900</nanos>
+  <date>2024-11-06T19:59:10.734981700Z</date>
+  <millis>1730923150734</millis>
+  <nanos>981700</nanos>
   <sequence>71</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Angie2901.dat</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.216008900Z</date>
-  <millis>1730347303216</millis>
-  <nanos>8900</nanos>
+  <date>2024-11-06T19:59:10.735979500Z</date>
+  <millis>1730923150735</millis>
+  <nanos>979500</nanos>
   <sequence>72</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.220463800Z</date>
-  <millis>1730347303220</millis>
-  <nanos>463800</nanos>
+  <date>2024-11-06T19:59:10.740962300Z</date>
+  <millis>1730923150740</millis>
+  <nanos>962300</nanos>
   <sequence>73</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a Dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.221461100Z</date>
-  <millis>1730347303221</millis>
-  <nanos>461100</nanos>
+  <date>2024-11-06T19:59:10.741959500Z</date>
+  <millis>1730923150741</millis>
+  <nanos>959500</nanos>
   <sequence>74</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.221461100Z</date>
-  <millis>1730347303221</millis>
-  <nanos>461100</nanos>
+  <date>2024-11-06T19:59:10.741959500Z</date>
+  <millis>1730923150741</millis>
+  <nanos>959500</nanos>
   <sequence>75</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Angie2901.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.222966100Z</date>
-  <millis>1730347303222</millis>
-  <nanos>966100</nanos>
+  <date>2024-11-06T19:59:10.742955300Z</date>
+  <millis>1730923150742</millis>
+  <nanos>955300</nanos>
   <sequence>76</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.241035300Z</date>
-  <millis>1730347303241</millis>
-  <nanos>35300</nanos>
+  <date>2024-11-06T19:59:10.774851800Z</date>
+  <millis>1730923150774</millis>
+  <nanos>851800</nanos>
   <sequence>77</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.241035300Z</date>
-  <millis>1730347303241</millis>
-  <nanos>35300</nanos>
+  <date>2024-11-06T19:59:10.776314500Z</date>
+  <millis>1730923150776</millis>
+  <nanos>314500</nanos>
   <sequence>78</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a XML...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.242032300Z</date>
-  <millis>1730347303242</millis>
-  <nanos>32300</nanos>
+  <date>2024-11-06T19:59:10.777321100Z</date>
+  <millis>1730923150777</millis>
+  <nanos>321100</nanos>
   <sequence>79</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Juan1137.dat</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.243026500Z</date>
-  <millis>1730347303243</millis>
-  <nanos>26500</nanos>
+  <date>2024-11-06T19:59:10.778314500Z</date>
+  <millis>1730923150778</millis>
+  <nanos>314500</nanos>
   <sequence>80</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.246020Z</date>
-  <millis>1730347303246</millis>
-  <nanos>20000</nanos>
+  <date>2024-11-06T19:59:10.781303Z</date>
+  <millis>1730923150781</millis>
+  <nanos>303000</nanos>
   <sequence>81</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a Dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.249722400Z</date>
-  <millis>1730347303249</millis>
-  <nanos>722400</nanos>
+  <date>2024-11-06T19:59:10.781303Z</date>
+  <millis>1730923150781</millis>
+  <nanos>303000</nanos>
   <sequence>82</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.251840700Z</date>
-  <millis>1730347303251</millis>
-  <nanos>840700</nanos>
+  <date>2024-11-06T19:59:10.782299100Z</date>
+  <millis>1730923150782</millis>
+  <nanos>299100</nanos>
   <sequence>83</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Juan1137.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.253827300Z</date>
-  <millis>1730347303253</millis>
-  <nanos>827300</nanos>
+  <date>2024-11-06T19:59:10.783297300Z</date>
+  <millis>1730923150783</millis>
+  <nanos>297300</nanos>
   <sequence>84</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.255829400Z</date>
-  <millis>1730347303255</millis>
-  <nanos>829400</nanos>
+  <date>2024-11-06T19:59:10.787286500Z</date>
+  <millis>1730923150787</millis>
+  <nanos>286500</nanos>
   <sequence>85</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.255829400Z</date>
-  <millis>1730347303255</millis>
-  <nanos>829400</nanos>
+  <date>2024-11-06T19:59:10.788281800Z</date>
+  <millis>1730923150788</millis>
+  <nanos>281800</nanos>
   <sequence>86</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Usuarios serializados a XML...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.257346700Z</date>
-  <millis>1730347303257</millis>
-  <nanos>346700</nanos>
+  <date>2024-11-06T19:59:10.789276Z</date>
+  <millis>1730923150789</millis>
+  <nanos>276000</nanos>
   <sequence>87</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Mt1500002.dat</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.258369600Z</date>
-  <millis>1730347303258</millis>
-  <nanos>369600</nanos>
+  <date>2024-11-06T19:59:10.790273600Z</date>
+  <millis>1730923150790</millis>
+  <nanos>273600</nanos>
   <sequence>88</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.260620900Z</date>
-  <millis>1730347303260</millis>
-  <nanos>620900</nanos>
+  <date>2024-11-06T19:59:10.793264400Z</date>
+  <millis>1730923150793</millis>
+  <nanos>264400</nanos>
   <sequence>89</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a Dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.260620900Z</date>
-  <millis>1730347303260</millis>
-  <nanos>620900</nanos>
+  <date>2024-11-06T19:59:10.794259400Z</date>
+  <millis>1730923150794</millis>
+  <nanos>259400</nanos>
   <sequence>90</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Productos serializados a dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.261618100Z</date>
-  <millis>1730347303261</millis>
-  <nanos>618100</nanos>
+  <date>2024-11-06T19:59:10.796270800Z</date>
+  <millis>1730923150796</millis>
+  <nanos>270800</nanos>
   <sequence>91</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Mt1500002.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.261618100Z</date>
-  <millis>1730347303261</millis>
-  <nanos>618100</nanos>
+  <date>2024-11-06T19:59:10.797250300Z</date>
+  <millis>1730923150797</millis>
+  <nanos>250300</nanos>
   <sequence>92</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.266602400Z</date>
-  <millis>1730347303266</millis>
-  <nanos>602400</nanos>
+  <date>2024-11-06T19:59:10.803232600Z</date>
+  <millis>1730923150803</millis>
+  <nanos>232600</nanos>
   <sequence>93</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.267598100Z</date>
-  <millis>1730347303267</millis>
-  <nanos>598100</nanos>
+  <date>2024-11-06T19:59:10.804580300Z</date>
+  <millis>1730923150804</millis>
+  <nanos>580300</nanos>
   <sequence>94</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Productos serializados a XML...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.268103600Z</date>
-  <millis>1730347303268</millis>
-  <nanos>103600</nanos>
+  <date>2024-11-06T19:59:10.806578300Z</date>
+  <millis>1730923150806</millis>
+  <nanos>578300</nanos>
   <sequence>95</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Cámara00001.dat</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.269457200Z</date>
-  <millis>1730347303269</millis>
-  <nanos>457200</nanos>
+  <date>2024-11-06T19:59:10.806578300Z</date>
+  <millis>1730923150806</millis>
+  <nanos>578300</nanos>
   <sequence>96</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.271449700Z</date>
-  <millis>1730347303271</millis>
-  <nanos>449700</nanos>
+  <date>2024-11-06T19:59:10.810568300Z</date>
+  <millis>1730923150810</millis>
+  <nanos>568300</nanos>
   <sequence>97</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a Dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.272447400Z</date>
-  <millis>1730347303272</millis>
-  <nanos>447400</nanos>
+  <date>2024-11-06T19:59:10.812559200Z</date>
+  <millis>1730923150812</millis>
+  <nanos>559200</nanos>
   <sequence>98</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Productos serializados a dat...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.272447400Z</date>
-  <millis>1730347303272</millis>
-  <nanos>447400</nanos>
+  <date>2024-11-06T19:59:10.813555200Z</date>
+  <millis>1730923150813</millis>
+  <nanos>555200</nanos>
   <sequence>99</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Intentando serializar: Cámara00001.xml</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.273444600Z</date>
-  <millis>1730347303273</millis>
-  <nanos>444600</nanos>
+  <date>2024-11-06T19:59:10.814553600Z</date>
+  <millis>1730923150814</millis>
+  <nanos>553600</nanos>
   <sequence>100</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.277438100Z</date>
-  <millis>1730347303277</millis>
-  <nanos>438100</nanos>
+  <date>2024-11-06T19:59:10.822525600Z</date>
+  <millis>1730923150822</millis>
+  <nanos>525600</nanos>
   <sequence>101</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Objeto serializado con éxito a XML</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.280862500Z</date>
-  <millis>1730347303280</millis>
-  <nanos>862500</nanos>
+  <date>2024-11-06T19:59:10.823523200Z</date>
+  <millis>1730923150823</millis>
+  <nanos>523200</nanos>
   <sequence>102</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Productos serializados a XML...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.283863200Z</date>
-  <millis>1730347303283</millis>
-  <nanos>863200</nanos>
+  <date>2024-11-06T19:59:10.824643600Z</date>
+  <millis>1730923150824</millis>
+  <nanos>643600</nanos>
   <sequence>103</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Serializacion completada...</message>
 </record>
 <record>
-  <date>2024-10-31T04:01:43.283863200Z</date>
-  <millis>1730347303283</millis>
-  <nanos>863200</nanos>
+  <date>2024-11-06T19:59:10.825563600Z</date>
+  <millis>1730923150825</millis>
+  <nanos>563600</nanos>
   <sequence>104</sequence>
   <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
   <level>INFO</level>
   <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
   <method>log</method>
-  <thread>34</thread>
+  <thread>39</thread>
   <message>Hilo de persistencia: serialización completada.</message>
 </record>
+<record>
+  <date>2024-11-06T19:59:15.827069500Z</date>
+  <millis>1730923155827</millis>
+  <nanos>69500</nanos>
+  <sequence>105</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: inicializado deserialización.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.828109800Z</date>
+  <millis>1730923155828</millis>
+  <nanos>109800</nanos>
+  <sequence>106</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Inicializando Persistencia de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.829016400Z</date>
+  <millis>1730923155829</millis>
+  <nanos>16400</nanos>
+  <sequence>107</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.831055500Z</date>
+  <millis>1730923155831</millis>
+  <nanos>55500</nanos>
+  <sequence>108</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Cámara00001.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.832006600Z</date>
+  <millis>1730923155832</millis>
+  <nanos>6600</nanos>
+  <sequence>109</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.851939500Z</date>
+  <millis>1730923155851</millis>
+  <nanos>939500</nanos>
+  <sequence>110</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.852946500Z</date>
+  <millis>1730923155852</millis>
+  <nanos>946500</nanos>
+  <sequence>111</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando producto por código...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.853932700Z</date>
+  <millis>1730923155853</millis>
+  <nanos>932700</nanos>
+  <sequence>112</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El producto no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.855932500Z</date>
+  <millis>1730923155855</millis>
+  <nanos>932500</nanos>
+  <sequence>113</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Mt1500002.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.856924300Z</date>
+  <millis>1730923155856</millis>
+  <nanos>924300</nanos>
+  <sequence>114</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.882842300Z</date>
+  <millis>1730923155882</millis>
+  <nanos>842300</nanos>
+  <sequence>115</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.882842300Z</date>
+  <millis>1730923155882</millis>
+  <nanos>842300</nanos>
+  <sequence>116</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando producto por código...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.883841300Z</date>
+  <millis>1730923155883</millis>
+  <nanos>841300</nanos>
+  <sequence>117</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El producto no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.884836100Z</date>
+  <millis>1730923155884</millis>
+  <nanos>836100</nanos>
+  <sequence>118</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Angie1092.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.885833800Z</date>
+  <millis>1730923155885</millis>
+  <nanos>833800</nanos>
+  <sequence>119</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.917315Z</date>
+  <millis>1730923155917</millis>
+  <nanos>315000</nanos>
+  <sequence>120</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.918311300Z</date>
+  <millis>1730923155918</millis>
+  <nanos>311300</nanos>
+  <sequence>121</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.918311300Z</date>
+  <millis>1730923155918</millis>
+  <nanos>311300</nanos>
+  <sequence>122</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.919357600Z</date>
+  <millis>1730923155919</millis>
+  <nanos>357600</nanos>
+  <sequence>123</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Angie2901.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.919357600Z</date>
+  <millis>1730923155919</millis>
+  <nanos>357600</nanos>
+  <sequence>124</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.950285400Z</date>
+  <millis>1730923155950</millis>
+  <nanos>285400</nanos>
+  <sequence>125</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.951245600Z</date>
+  <millis>1730923155951</millis>
+  <nanos>245600</nanos>
+  <sequence>126</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.951245600Z</date>
+  <millis>1730923155951</millis>
+  <nanos>245600</nanos>
+  <sequence>127</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.952198200Z</date>
+  <millis>1730923155952</millis>
+  <nanos>198200</nanos>
+  <sequence>128</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Juan1137.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.952198200Z</date>
+  <millis>1730923155952</millis>
+  <nanos>198200</nanos>
+  <sequence>129</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.971805200Z</date>
+  <millis>1730923155971</millis>
+  <nanos>805200</nanos>
+  <sequence>130</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.972819700Z</date>
+  <millis>1730923155972</millis>
+  <nanos>819700</nanos>
+  <sequence>131</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.972819700Z</date>
+  <millis>1730923155972</millis>
+  <nanos>819700</nanos>
+  <sequence>132</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.973826800Z</date>
+  <millis>1730923155973</millis>
+  <nanos>826800</nanos>
+  <sequence>133</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Datos de persistencia cargados exitosamente</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:15.973826800Z</date>
+  <millis>1730923155973</millis>
+  <nanos>826800</nanos>
+  <sequence>134</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: deserialización completada.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.976068Z</date>
+  <millis>1730923160976</millis>
+  <nanos>68000</nanos>
+  <sequence>135</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: inicializado serialización.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.976929800Z</date>
+  <millis>1730923160976</millis>
+  <nanos>929800</nanos>
+  <sequence>136</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Iniciando serializacion de datos...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.976929800Z</date>
+  <millis>1730923160976</millis>
+  <nanos>929800</nanos>
+  <sequence>137</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie1092.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.977927800Z</date>
+  <millis>1730923160977</millis>
+  <nanos>927800</nanos>
+  <sequence>138</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.981911100Z</date>
+  <millis>1730923160981</millis>
+  <nanos>911100</nanos>
+  <sequence>139</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.982907800Z</date>
+  <millis>1730923160982</millis>
+  <nanos>907800</nanos>
+  <sequence>140</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.982907800Z</date>
+  <millis>1730923160982</millis>
+  <nanos>907800</nanos>
+  <sequence>141</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie1092.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:20.983906300Z</date>
+  <millis>1730923160983</millis>
+  <nanos>906300</nanos>
+  <sequence>142</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.009817700Z</date>
+  <millis>1730923161009</millis>
+  <nanos>817700</nanos>
+  <sequence>143</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.010815900Z</date>
+  <millis>1730923161010</millis>
+  <nanos>815900</nanos>
+  <sequence>144</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.011811300Z</date>
+  <millis>1730923161011</millis>
+  <nanos>811300</nanos>
+  <sequence>145</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie2901.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.011811300Z</date>
+  <millis>1730923161011</millis>
+  <nanos>811300</nanos>
+  <sequence>146</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.014801700Z</date>
+  <millis>1730923161014</millis>
+  <nanos>801700</nanos>
+  <sequence>147</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.015798100Z</date>
+  <millis>1730923161015</millis>
+  <nanos>798100</nanos>
+  <sequence>148</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.015798100Z</date>
+  <millis>1730923161015</millis>
+  <nanos>798100</nanos>
+  <sequence>149</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie2901.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.016814800Z</date>
+  <millis>1730923161016</millis>
+  <nanos>814800</nanos>
+  <sequence>150</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.027757Z</date>
+  <millis>1730923161027</millis>
+  <nanos>757000</nanos>
+  <sequence>151</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.028755Z</date>
+  <millis>1730923161028</millis>
+  <nanos>755000</nanos>
+  <sequence>152</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.028755Z</date>
+  <millis>1730923161028</millis>
+  <nanos>755000</nanos>
+  <sequence>153</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Juan1137.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.028755Z</date>
+  <millis>1730923161028</millis>
+  <nanos>755000</nanos>
+  <sequence>154</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.029751200Z</date>
+  <millis>1730923161029</millis>
+  <nanos>751200</nanos>
+  <sequence>155</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.029751200Z</date>
+  <millis>1730923161029</millis>
+  <nanos>751200</nanos>
+  <sequence>156</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.030747500Z</date>
+  <millis>1730923161030</millis>
+  <nanos>747500</nanos>
+  <sequence>157</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Juan1137.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.030747500Z</date>
+  <millis>1730923161030</millis>
+  <nanos>747500</nanos>
+  <sequence>158</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.031744Z</date>
+  <millis>1730923161031</millis>
+  <nanos>744000</nanos>
+  <sequence>159</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.032741300Z</date>
+  <millis>1730923161032</millis>
+  <nanos>741300</nanos>
+  <sequence>160</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.032741300Z</date>
+  <millis>1730923161032</millis>
+  <nanos>741300</nanos>
+  <sequence>161</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Mt1500002.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.032741300Z</date>
+  <millis>1730923161032</millis>
+  <nanos>741300</nanos>
+  <sequence>162</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.033737400Z</date>
+  <millis>1730923161033</millis>
+  <nanos>737400</nanos>
+  <sequence>163</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.034734700Z</date>
+  <millis>1730923161034</millis>
+  <nanos>734700</nanos>
+  <sequence>164</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.034734700Z</date>
+  <millis>1730923161034</millis>
+  <nanos>734700</nanos>
+  <sequence>165</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Mt1500002.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.034734700Z</date>
+  <millis>1730923161034</millis>
+  <nanos>734700</nanos>
+  <sequence>166</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.037724300Z</date>
+  <millis>1730923161037</millis>
+  <nanos>724300</nanos>
+  <sequence>167</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.037724300Z</date>
+  <millis>1730923161037</millis>
+  <nanos>724300</nanos>
+  <sequence>168</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.038721400Z</date>
+  <millis>1730923161038</millis>
+  <nanos>721400</nanos>
+  <sequence>169</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Cámara00001.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.038721400Z</date>
+  <millis>1730923161038</millis>
+  <nanos>721400</nanos>
+  <sequence>170</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.039718700Z</date>
+  <millis>1730923161039</millis>
+  <nanos>718700</nanos>
+  <sequence>171</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.039718700Z</date>
+  <millis>1730923161039</millis>
+  <nanos>718700</nanos>
+  <sequence>172</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.039718700Z</date>
+  <millis>1730923161039</millis>
+  <nanos>718700</nanos>
+  <sequence>173</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Cámara00001.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.040724400Z</date>
+  <millis>1730923161040</millis>
+  <nanos>724400</nanos>
+  <sequence>174</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.042708100Z</date>
+  <millis>1730923161042</millis>
+  <nanos>708100</nanos>
+  <sequence>175</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.043704800Z</date>
+  <millis>1730923161043</millis>
+  <nanos>704800</nanos>
+  <sequence>176</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.043704800Z</date>
+  <millis>1730923161043</millis>
+  <nanos>704800</nanos>
+  <sequence>177</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Serializacion completada...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:21.043704800Z</date>
+  <millis>1730923161043</millis>
+  <nanos>704800</nanos>
+  <sequence>178</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: serialización completada.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.046237600Z</date>
+  <millis>1730923166046</millis>
+  <nanos>237600</nanos>
+  <sequence>179</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: inicializado deserialización.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.047234300Z</date>
+  <millis>1730923166047</millis>
+  <nanos>234300</nanos>
+  <sequence>180</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Inicializando Persistencia de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.048231300Z</date>
+  <millis>1730923166048</millis>
+  <nanos>231300</nanos>
+  <sequence>181</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.051220600Z</date>
+  <millis>1730923166051</millis>
+  <nanos>220600</nanos>
+  <sequence>182</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Cámara00001.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.051220600Z</date>
+  <millis>1730923166051</millis>
+  <nanos>220600</nanos>
+  <sequence>183</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.067167200Z</date>
+  <millis>1730923166067</millis>
+  <nanos>167200</nanos>
+  <sequence>184</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.068164100Z</date>
+  <millis>1730923166068</millis>
+  <nanos>164100</nanos>
+  <sequence>185</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando producto por código...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.069161Z</date>
+  <millis>1730923166069</millis>
+  <nanos>161000</nanos>
+  <sequence>186</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El producto no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.069161Z</date>
+  <millis>1730923166069</millis>
+  <nanos>161000</nanos>
+  <sequence>187</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Mt1500002.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.070157Z</date>
+  <millis>1730923166070</millis>
+  <nanos>157000</nanos>
+  <sequence>188</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.076137700Z</date>
+  <millis>1730923166076</millis>
+  <nanos>137700</nanos>
+  <sequence>189</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.076137700Z</date>
+  <millis>1730923166076</millis>
+  <nanos>137700</nanos>
+  <sequence>190</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando producto por código...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.077134700Z</date>
+  <millis>1730923166077</millis>
+  <nanos>134700</nanos>
+  <sequence>191</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El producto no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.078130600Z</date>
+  <millis>1730923166078</millis>
+  <nanos>130600</nanos>
+  <sequence>192</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Angie1092.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.079126600Z</date>
+  <millis>1730923166079</millis>
+  <nanos>126600</nanos>
+  <sequence>193</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.115007Z</date>
+  <millis>1730923166115</millis>
+  <nanos>7000</nanos>
+  <sequence>194</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.115007Z</date>
+  <millis>1730923166115</millis>
+  <nanos>7000</nanos>
+  <sequence>195</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.115007Z</date>
+  <millis>1730923166115</millis>
+  <nanos>7000</nanos>
+  <sequence>196</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.116004400Z</date>
+  <millis>1730923166116</millis>
+  <nanos>4400</nanos>
+  <sequence>197</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Angie2901.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.116004400Z</date>
+  <millis>1730923166116</millis>
+  <nanos>4400</nanos>
+  <sequence>198</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.133942700Z</date>
+  <millis>1730923166133</millis>
+  <nanos>942700</nanos>
+  <sequence>199</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.134947100Z</date>
+  <millis>1730923166134</millis>
+  <nanos>947100</nanos>
+  <sequence>200</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.134947100Z</date>
+  <millis>1730923166134</millis>
+  <nanos>947100</nanos>
+  <sequence>201</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.134947100Z</date>
+  <millis>1730923166134</millis>
+  <nanos>947100</nanos>
+  <sequence>202</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando deserializar:  Juan1137.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.135940100Z</date>
+  <millis>1730923166135</millis>
+  <nanos>940100</nanos>
+  <sequence>203</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.140959400Z</date>
+  <millis>1730923166140</millis>
+  <nanos>959400</nanos>
+  <sequence>204</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto deserializado con éxito de XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.140959400Z</date>
+  <millis>1730923166140</millis>
+  <nanos>959400</nanos>
+  <sequence>205</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Buscando usuario por cédula...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.141920900Z</date>
+  <millis>1730923166141</millis>
+  <nanos>920900</nanos>
+  <sequence>206</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>El usuario no ha sido agregado, porque ya lo estaba.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.141920900Z</date>
+  <millis>1730923166141</millis>
+  <nanos>920900</nanos>
+  <sequence>207</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Datos de persistencia cargados exitosamente</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:26.141920900Z</date>
+  <millis>1730923166141</millis>
+  <nanos>920900</nanos>
+  <sequence>208</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: deserialización completada.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.143619Z</date>
+  <millis>1730923171143</millis>
+  <nanos>619000</nanos>
+  <sequence>209</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: inicializado serialización.</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.144575700Z</date>
+  <millis>1730923171144</millis>
+  <nanos>575700</nanos>
+  <sequence>210</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Iniciando serializacion de datos...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.144575700Z</date>
+  <millis>1730923171144</millis>
+  <nanos>575700</nanos>
+  <sequence>211</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie1092.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.145528700Z</date>
+  <millis>1730923171145</millis>
+  <nanos>528700</nanos>
+  <sequence>212</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.148555500Z</date>
+  <millis>1730923171148</millis>
+  <nanos>555500</nanos>
+  <sequence>213</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.148555500Z</date>
+  <millis>1730923171148</millis>
+  <nanos>555500</nanos>
+  <sequence>214</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.149511800Z</date>
+  <millis>1730923171149</millis>
+  <nanos>511800</nanos>
+  <sequence>215</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie1092.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.149511800Z</date>
+  <millis>1730923171149</millis>
+  <nanos>511800</nanos>
+  <sequence>216</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.169449Z</date>
+  <millis>1730923171169</millis>
+  <nanos>449000</nanos>
+  <sequence>217</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.170492300Z</date>
+  <millis>1730923171170</millis>
+  <nanos>492300</nanos>
+  <sequence>218</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.171440400Z</date>
+  <millis>1730923171171</millis>
+  <nanos>440400</nanos>
+  <sequence>219</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie2901.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.171440400Z</date>
+  <millis>1730923171171</millis>
+  <nanos>440400</nanos>
+  <sequence>220</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.173994800Z</date>
+  <millis>1730923171173</millis>
+  <nanos>994800</nanos>
+  <sequence>221</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.175132600Z</date>
+  <millis>1730923171175</millis>
+  <nanos>132600</nanos>
+  <sequence>222</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.175132600Z</date>
+  <millis>1730923171175</millis>
+  <nanos>132600</nanos>
+  <sequence>223</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Angie2901.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.176149100Z</date>
+  <millis>1730923171176</millis>
+  <nanos>149100</nanos>
+  <sequence>224</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.188882600Z</date>
+  <millis>1730923171188</millis>
+  <nanos>882600</nanos>
+  <sequence>225</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.189879300Z</date>
+  <millis>1730923171189</millis>
+  <nanos>879300</nanos>
+  <sequence>226</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.189879300Z</date>
+  <millis>1730923171189</millis>
+  <nanos>879300</nanos>
+  <sequence>227</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Juan1137.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.189879300Z</date>
+  <millis>1730923171189</millis>
+  <nanos>879300</nanos>
+  <sequence>228</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.191869900Z</date>
+  <millis>1730923171191</millis>
+  <nanos>869900</nanos>
+  <sequence>229</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.191869900Z</date>
+  <millis>1730923171191</millis>
+  <nanos>869900</nanos>
+  <sequence>230</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.192866100Z</date>
+  <millis>1730923171192</millis>
+  <nanos>866100</nanos>
+  <sequence>231</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Juan1137.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.192866100Z</date>
+  <millis>1730923171192</millis>
+  <nanos>866100</nanos>
+  <sequence>232</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Usuarios/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.195863400Z</date>
+  <millis>1730923171195</millis>
+  <nanos>863400</nanos>
+  <sequence>233</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.195863400Z</date>
+  <millis>1730923171195</millis>
+  <nanos>863400</nanos>
+  <sequence>234</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Usuarios serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.195863400Z</date>
+  <millis>1730923171195</millis>
+  <nanos>863400</nanos>
+  <sequence>235</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Mt1500002.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.196853700Z</date>
+  <millis>1730923171196</millis>
+  <nanos>853700</nanos>
+  <sequence>236</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.197852500Z</date>
+  <millis>1730923171197</millis>
+  <nanos>852500</nanos>
+  <sequence>237</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.197852500Z</date>
+  <millis>1730923171197</millis>
+  <nanos>852500</nanos>
+  <sequence>238</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.198846700Z</date>
+  <millis>1730923171198</millis>
+  <nanos>846700</nanos>
+  <sequence>239</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Mt1500002.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.198846700Z</date>
+  <millis>1730923171198</millis>
+  <nanos>846700</nanos>
+  <sequence>240</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.201838700Z</date>
+  <millis>1730923171201</millis>
+  <nanos>838700</nanos>
+  <sequence>241</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.201838700Z</date>
+  <millis>1730923171201</millis>
+  <nanos>838700</nanos>
+  <sequence>242</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.201838700Z</date>
+  <millis>1730923171201</millis>
+  <nanos>838700</nanos>
+  <sequence>243</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Cámara00001.dat</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.202835300Z</date>
+  <millis>1730923171202</millis>
+  <nanos>835300</nanos>
+  <sequence>244</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.203829500Z</date>
+  <millis>1730923171203</millis>
+  <nanos>829500</nanos>
+  <sequence>245</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a Dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.203829500Z</date>
+  <millis>1730923171203</millis>
+  <nanos>829500</nanos>
+  <sequence>246</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a dat...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.203829500Z</date>
+  <millis>1730923171203</millis>
+  <nanos>829500</nanos>
+  <sequence>247</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Intentando serializar: Cámara00001.xml</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.203829500Z</date>
+  <millis>1730923171203</millis>
+  <nanos>829500</nanos>
+  <sequence>248</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Accediendo a: src/main/resources/Archivos/Productos/</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.207814800Z</date>
+  <millis>1730923171207</millis>
+  <nanos>814800</nanos>
+  <sequence>249</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Objeto serializado con éxito a XML</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.207814800Z</date>
+  <millis>1730923171207</millis>
+  <nanos>814800</nanos>
+  <sequence>250</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Productos serializados a XML...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.209029100Z</date>
+  <millis>1730923171209</millis>
+  <nanos>29100</nanos>
+  <sequence>251</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Serializacion completada...</message>
+</record>
+<record>
+  <date>2024-11-06T19:59:31.209029100Z</date>
+  <millis>1730923171209</millis>
+  <nanos>29100</nanos>
+  <sequence>252</sequence>
+  <logger>co.edu.uniquindio.proyectofinal.Model.Utilidades</logger>
+  <level>INFO</level>
+  <class>co.edu.uniquindio.proyectofinal.Model.Utilidades</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>Hilo de persistencia: serialización completada.</message>
+</record>
+</log>
