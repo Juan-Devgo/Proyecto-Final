@@ -2,7 +2,6 @@ package co.edu.uniquindio.proyectofinal.Model;
 
 import java.io.Serial;
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -30,6 +29,21 @@ public class SolicitudVinculo implements Serializable {
     }
 
     public SolicitudVinculo(){}
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean equal = true;
+        if(this != obj){
+            if(obj == null || getClass() != obj.getClass()){
+                equal = false;
+            } else {
+                SolicitudVinculo solicitud = (SolicitudVinculo) obj;
+                equal = emisor.getCedula() != null && emisor.getCedula().equals(solicitud.getEmisor().getCedula());
+            }
+        }
+
+        return equal;
+    }
 
     //Getters
     public Vendedor getEmisor() {
@@ -66,5 +80,9 @@ public class SolicitudVinculo implements Serializable {
             throw new DatoNuloException();
         }
         this.hora = hora;
+    }
+
+    public String toString(){
+        return emisor + " " + fecha + " " + hora;
     }
 }

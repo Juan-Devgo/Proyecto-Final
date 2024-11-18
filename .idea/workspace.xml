@@ -5,15 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe4cc5d-cd5b-42ad-b409-6419f9691411" name="Changes" comment="Persistencia e Hilo completado">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/AdminPrincipalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Properties/admin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/adminPrincipal.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/EstadoProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/EstadoProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ActualizarPerfilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ActualizarPerfilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ActualizarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ActualizarProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/EditarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/EditarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/MuroProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/MuroProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/MuroVendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/MuroVendedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/PerfilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/PerfilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/RegistroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/RegistroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/SolicitudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Controller/SolicitudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/GestionMarketPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/GestionMarketPlace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/MarketPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/MarketPlace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Utilidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/proyectofinal/Model/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Cámara00001.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Cámara00001.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Cámara00001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Cámara00001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Mt1500002.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Mt1500002.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Mt1500002.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Archivos/Productos/Mt1500002.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Angie1092.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Angie1092.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Angie2901.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Angie2901.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Juan1137.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Archivos/Usuarios/Juan1137.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Log/Logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Log/Logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/actualizarPerfil.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/actualizarProducto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/editar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/muroProdcto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/muroProducto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/muroVendedor.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/perfil.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/principal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/producto.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/registro.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/solicitud.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/perfil.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/perfil.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/principal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/principal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/proyectofinal/vistaProducto.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +130,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre 4/Programación III/Proyecto Final&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre 4/Programación III/Proyecto Final/src/main/resources/co/edu/uniquindio/proyectofinal&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -95,6 +141,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juand\OneDrive\Escritorio\Uniquindío\Semestre 4\Programación III\Proyecto Final\src\main\resources\co\edu\uniquindio\proyectofinal" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\juand\OneDrive\Escritorio\Uniquindío\Semestre 4\Programación III\Proyecto Final\src\main\resources\Log" />
       <recent name="C:\Users\juand\OneDrive\Escritorio\Uniquindío\Semestre 4\Programación III\Proyecto Final\src\main\resources\Persistencia\Usuarios" />
@@ -145,6 +194,13 @@
       <workItem from="1730994253420" duration="7384000" />
       <workItem from="1731033184323" duration="600000" />
       <workItem from="1731431132627" duration="157000" />
+      <workItem from="1731441623458" duration="567000" />
+      <workItem from="1731459276795" duration="290000" />
+      <workItem from="1731612289167" duration="5350000" />
+      <workItem from="1731636165761" duration="1363000" />
+      <workItem from="1731671270889" duration="5236000" />
+      <workItem from="1731685845623" duration="6831000" />
+      <workItem from="1731852169034" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Excepciones, Implementación de clases de negocio.">
       <option name="closed" value="true" />
@@ -178,6 +234,17 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Excepciones, Implementación de clases de negocio." />

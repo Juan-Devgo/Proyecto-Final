@@ -14,7 +14,7 @@ import java.util.LinkedList;
 
 import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
-public class Producto implements Serializable,Escribible {
+public class Producto implements Serializable, Escribible {
     private String nombre, descripcion, categoria;
     private String codigo;
     private Double precio;
@@ -24,18 +24,27 @@ public class Producto implements Serializable,Escribible {
     private LinkedList<Usuario> likes;
     private LinkedList<Comentario> comentarios;
     private EstadoProducto estado;
+    private Vendedor vendedor;
 
     @Serial
     private static  final long serialVersionUID = 1L;
 
     //Constructores
-    public Producto(String nombre, String descripcion, String categoria, String codigo, Double precio, String rutaImagen) {
+    public Producto(String nombre, String descripcion, String categoria, String codigo, Double precio, Vendedor vendedor, String rutaImagen) {
         if(nombre == null || nombre.isBlank() || descripcion == null || descripcion.isBlank() || categoria == null || categoria.isBlank() || codigo == null || codigo.isBlank() || rutaImagen == null || rutaImagen.isBlank()){
             throw new CadenaInvalidaException();
         }
+
+        if(vendedor == null) {
+            throw new DatoNuloException();
+        }
+
         this.nombre = nombre;
         this.descripcion = descripcion;
+        this.categoria = categoria;
         this.codigo = codigo;
+        this.vendedor = vendedor;
+        vendedor.agregarProducto(this);
         this.rutaImagen = rutaImagen;
 
         if(precio.isNaN() || precio < 0){
@@ -93,6 +102,21 @@ public class Producto implements Serializable,Escribible {
         }
 
         return nombres;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean equal = true;
+        if(this != obj){
+            if(obj == null || getClass() != obj.getClass()){
+                equal = false;
+            } else {
+                Producto producto = (Producto) obj;
+                equal = codigo != null && codigo.equals(producto.getCodigo());
+            }
+        }
+
+        return equal;
     }
 
     //Recibir like
@@ -185,6 +209,9 @@ public class Producto implements Serializable,Escribible {
     public String getCodigo() {
         return codigo;
     }
+    public Vendedor getVendedor() {
+        return vendedor;
+    }
     public Double getPrecio() {
         return precio;
     }
@@ -197,19 +224,16 @@ public class Producto implements Serializable,Escribible {
     public String getHoraPublicacion() {
         return horaPublicacion;
     }
-
     public LocalDateTime getFechaYHoraPublicacion() {
         return LocalDateTime.of(LocalDate.parse(fechaPublicacion), LocalTime.parse(horaPublicacion));
     }
-
     public String getFechaYHoraPublicacionGUI() {
         return DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).format(getFechaYHoraPublicacion());
     }
-
-    public int getLikes() {
+    public int getCantidadLikes() {
         return likes.size();
     }
-    public LinkedList<Usuario> getUsuariosLikes() {
+    public LinkedList<Usuario> getLikes() {
         return likes;
     }
     public int getCantidadComentarios() {
@@ -221,6 +245,7 @@ public class Producto implements Serializable,Escribible {
     public EstadoProducto getEstado() {
         return estado;
     }
+
 
     //Setters
     public void setNombre(String nombre) {
@@ -236,7 +261,7 @@ public class Producto implements Serializable,Escribible {
         this.descripcion = descripcion;
     }
     public void setCategoria(String categoria) {
-        if(descripcion == null || descripcion.isBlank()){
+        if(categoria == null || categoria.isBlank()){
             throw new CadenaInvalidaException();
         }
         this.categoria = categoria;
@@ -246,6 +271,12 @@ public class Producto implements Serializable,Escribible {
             throw new CadenaInvalidaException();
         }
         this.codigo = codigo;
+    }
+    public void setVendedor(Vendedor vendedor) {
+        if(vendedor == null){
+            throw new DatoNuloException();
+        }
+        this.vendedor = vendedor;
     }
     public void setPrecio(Double precio) {
         if(precio.isNaN() || precio < 0){

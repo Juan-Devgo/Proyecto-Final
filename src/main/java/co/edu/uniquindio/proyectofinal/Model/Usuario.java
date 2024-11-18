@@ -21,6 +21,21 @@ public abstract class Usuario implements Serializable, Escribible{
         this.cedula = cedula;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        boolean equal = true;
+        if(this != obj){
+            if(obj == null || getClass() != obj.getClass()){
+                equal = false;
+            } else {
+                Usuario usuario = (Usuario) obj;
+                equal = cedula != null && cedula.equals(usuario.getCedula());
+            }
+        }
+
+        return equal;
+    }
+
     public Usuario() {}
 
     //Getters

@@ -34,12 +34,12 @@ public class Utilidades {
         log("Intentando generar reporte...");
 
         if(escribible == null){
-            throw new NullPointerException("Escribible es nulo"); 
+            throw new NullPointerException("Escribible es nulo");
         }
 
         log("Obteniendo formato...");
         Formatter formato = escribible.getFormatoReporte(); 
-        formato.flush(); 
+        formato.flush();
         formato.close();
         log("Reporte generado con éxito.");
     }
@@ -81,6 +81,11 @@ public class Utilidades {
     public String getRuta(String key) {
         log("Accediendo a: " + ResourceBundle.getBundle("Properties.rutas").getString(key));
         return ResourceBundle.getBundle("Properties.rutas").getString(key);
+    }
+
+    public String getAdmin(String key) {
+        log("Accediendo a: " + ResourceBundle.getBundle("Properties.admin").getString(key));
+        return ResourceBundle.getBundle("Properties.admin").getString(key);
     }
 
     public void log(String mensaje) {

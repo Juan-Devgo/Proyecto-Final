@@ -25,8 +25,9 @@ public interface GestionMarketPlace {
     LinkedList<Usuario> getUsuarios();
     LinkedList<Producto> getProductos();
     //Requisito RF-003
-    boolean solicitarVinculoVendedor(Vendedor emisor, Vendedor receptor);
+    void solicitarVinculoVendedor(Vendedor emisor, Vendedor receptor);
     void aceptarVinculoVendedor(Vendedor receptor, SolicitudVinculo solicitud);
+    void eliminarSolicitud(Vendedor receptor, SolicitudVinculo solicitud);
     //Requisito RF-006
     void obtenerEstadisticas();
     //Requisito RF-007
@@ -35,8 +36,12 @@ public interface GestionMarketPlace {
     Optional<Producto> buscarProductoPorNombre(String nombre);
     Optional<Producto> buscarProductoPorCodigo(String codigo);
     LinkedList<Producto> buscarProductosPorCategoria(String categoria);
+    LinkedList<Producto> buscarProductosPorNombre(String nombre);
+    LinkedList<Producto> buscarProductosPorCodigo(String codigo);
     Optional<Vendedor> buscarVendedorPorNombre(String nombre);
     Optional<Vendedor> buscarVendedorPorCedula(String cedula);
+    LinkedList<Vendedor> buscarVendedoresPorNombre(String nombre);
+    LinkedList<Vendedor> buscarVendedoresPorCedula(String cedula);
     Optional<Administrador> buscarAdministradorPorCedula(String cedula);
     Optional<Usuario> buscarUsuarioPorCedula(String cedula);
     //Métodos de Login.

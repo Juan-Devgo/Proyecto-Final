@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.Controller.MuroVendedorController">
+   <children>
+      <AnchorPane prefHeight="520.0" prefWidth="260.0">
+         <children>
+            <AnchorPane prefHeight="194.0" prefWidth="260.0" style="-fx-background-color: #eeeeee;">
+               <children>
+                  <ImageView fx:id="imagenVendedor_iv" fitHeight="119.0" fitWidth="136.0" layoutX="62.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="1.0" />
+                  <Button fx:id="enviarSolicitud_bt" layoutX="10.0" layoutY="111.0" mnemonicParsing="false" onAction="#enviarSolicitud" style="-fx-background-color: #86895d;" text="Enviar Solicitud" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="125.0" />
+                  <ImageView fx:id="like_iv" fitHeight="25.0" fitWidth="27.0" layoutX="60.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="60.0" />
+                  <Label layoutX="107.0" layoutY="162.0" text="#" AnchorPane.leftAnchor="100.0" />
+                  <Label fx:id="numeroLikes_lb" layoutX="128.0" layoutY="162.0" prefHeight="17.0" prefWidth="25.0" AnchorPane.leftAnchor="120.0" />
+                  <Button fx:id="like_bt" layoutX="118.0" layoutY="100.0" mnemonicParsing="false" onAction="#darLike" style="-fx-background-color: #86895d;" text="Like" textFill="WHITE" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="125.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="194.0" prefHeight="102.0" prefWidth="260.0" style="-fx-background-color: #b7c4b2;">
+               <children>
+                  <Label layoutX="20.0" layoutY="14.0" text="Nombre:" AnchorPane.topAnchor="10.0" />
+                  <Label layoutX="20.0" layoutY="38.0" text="Direccion: " AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="nombreVendedor_lb" layoutX="76.0" layoutY="14.0" maxHeight="17.0" maxWidth="160.0" AnchorPane.topAnchor="10.0" />
+                  <Label fx:id="direccion_lb" layoutX="83.0" layoutY="38.0" maxWidth="160.0" AnchorPane.topAnchor="30.0" />
+                  <Button fx:id="mapa_bt" layoutX="20.0" layoutY="60.0" mnemonicParsing="false" onAction="#irAMapa" style="-fx-background-color: #fafafa;" text="Mapa" AnchorPane.topAnchor="60.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="296.0" prefHeight="224.0" prefWidth="260.0" style="-fx-background-color: #8f9c8b;">
+               <children>
+                  <Label layoutX="109.0" layoutY="6.0" text="Reseñas" />
+                  <AnchorPane layoutX="21.0" layoutY="33.0" prefHeight="158.0" prefWidth="195.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="30.0">
+                     <children>
+                        <ScrollPane layoutY="6.0" prefHeight="154.0" prefWidth="171.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <Label fx:id="resenias_lb" alignment="TOP_LEFT" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="principal_bt" layoutX="14.0" layoutY="207.0" mnemonicParsing="false" onAction="#irAPrincipal" style="-fx-background-color: #fafafa;" text="Volver a Principal" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="140.0" />
+                  <Button fx:id="agregarResenia_bt" layoutX="129.0" layoutY="205.0" mnemonicParsing="false" onAction="#agregarResenia" style="-fx-background-color: #86895d;" text="Agregar Reseña" textFill="WHITE" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="10.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="260.0" prefHeight="519.0" prefWidth="473.0">
+         <children>
+            <ScrollPane prefHeight="488.0" prefWidth="497.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <content>
+                  <GridPane fx:id="muroProductos_gp" alignment="CENTER" prefHeight="516.0" prefWidth="471.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

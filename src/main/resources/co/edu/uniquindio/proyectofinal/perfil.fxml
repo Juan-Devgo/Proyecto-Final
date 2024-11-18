@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.Controller.PerfilController">
+   <children>
+      <AnchorPane prefHeight="539.0" prefWidth="194.0">
+         <children>
+            <AnchorPane prefHeight="148.0" prefWidth="194.0" style="-fx-background-color: #eeeeee;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fx:id="imagenVendedor_iv" fitHeight="72.0" fitWidth="83.0" layoutX="63.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="10.0" />
+                  <Button fx:id="muro_bt" layoutX="72.0" layoutY="86.0" mnemonicParsing="false" onAction="#irAmuro" style="-fx-background-color: #86895d;" text="Ir a Muro" textFill="WHITE" />
+                  <Button fx:id="Actualizar_bt" layoutX="29.0" layoutY="118.0" mnemonicParsing="false" onAction="#irAActualizar" style="-fx-background-color: #54582f;" text="Actualizar" textFill="WHITE" />
+                  <Button fx:id="solicitudes_bt" layoutX="110.0" layoutY="118.0" mnemonicParsing="false" onAction="#irASolicitudes" style="-fx-background-color: #677363;" text="Solicitudes" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="148.0" prefHeight="90.0" prefWidth="194.0" style="-fx-background-color: #b7c4b2;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="3.0" text="Nombre:" />
+                  <Label layoutX="14.0" layoutY="22.0" text="Identificacion: " />
+                  <Label layoutX="14.0" layoutY="40.0" text="Direcccion: " />
+                  <Label fx:id="nombre_lb" layoutX="63.0" layoutY="3.0" prefHeight="17.0" prefWidth="118.0" />
+                  <Label fx:id="identificacion_lb" layoutX="89.0" layoutY="21.0" prefHeight="17.0" prefWidth="118.0" />
+                  <Label fx:id="direccion_lb" layoutX="77.0" layoutY="40.0" prefHeight="17.0" prefWidth="132.0" />
+                  <ImageView fx:id="like_iv" fitHeight="28.0" fitWidth="25.0" layoutX="14.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="likes_lb" layoutX="44.0" layoutY="65.0" prefHeight="17.0" prefWidth="132.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="289.0" prefHeight="172.0" prefWidth="197.0" style="-fx-background-color: #8f9c8b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label layoutX="86.0" layoutY="14.0" text="Reseñas" AnchorPane.topAnchor="10.0" />
+                  <AnchorPane layoutX="20.0" layoutY="35.0" prefHeight="129.0" prefWidth="170.0">
+                     <children>
+                        <ScrollPane layoutX="7.0" layoutY="5.0" prefHeight="105.0" prefWidth="143.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <Label fx:id="listaResenias_lb" prefHeight="125.0" prefWidth="167.0" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-3.0" layoutY="238.0" prefHeight="129.0" prefWidth="200.0" style="-fx-background-color: #fafafa;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label layoutX="81.0" layoutY="6.0" text="Aliados" />
+                  <AnchorPane layoutX="6.0" layoutY="29.0" prefHeight="81.0" prefWidth="197.0">
+                     <children>
+                        <ScrollPane layoutX="40.0" layoutY="21.0" prefHeight="83.0" prefWidth="118.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                           <content>
+                              <Label fx:id="listaAliados_lb" prefHeight="77.0" prefWidth="195.0" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="209.0" prefHeight="200.0" prefWidth="500.0" style="-fx-background-color: #fafafa;" AnchorPane.leftAnchor="209.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="7.0" layoutY="53.0" prefHeight="148.0" prefWidth="489.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="53.0">
+               <children>
+                  <ScrollPane layoutX="-6.0" prefHeight="148.0" prefWidth="494.0" AnchorPane.rightAnchor="0.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="148.0" prefWidth="487.0" />
+                    </content>
+                  </ScrollPane>
+                  <ListView fx:id="listaProductos_lb" layoutX="-2.0" layoutY="1.0" prefHeight="136.0" prefWidth="481.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="53.0" prefWidth="500.0" style="-fx-background-color: #e0e0e0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="31.0" layoutY="13.0" text="PRODUCTOS PUBLICADOS">
+                     <font>
+                        <Font name="Agency FB" size="23.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="editar_bt" layoutX="334.0" layoutY="14.0" mnemonicParsing="false" onAction="#IrAEditar" text="Editar Producto" AnchorPane.rightAnchor="30.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="209.0" layoutY="201.0" prefHeight="45.0" prefWidth="500.0" style="-fx-background-color: #e0e0e0;" AnchorPane.leftAnchor="209.0">
+         <children>
+            <Label layoutX="28.0" layoutY="9.0" text="REALIZAR PUBLICACIÓN ">
+               <font>
+                  <Font name="Agency FB" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="publicar_bt" layoutX="396.0" layoutY="11.0" mnemonicParsing="false" onAction="#realizarPublicacion" text="Publicar" AnchorPane.rightAnchor="30.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="209.0" layoutY="245.0" prefHeight="294.0" prefWidth="500.0" AnchorPane.leftAnchor="209.0">
+         <children>
+            <Label layoutX="14.0" layoutY="26.0" text="Ingresar nombre:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="25.0" />
+            <TextField fx:id="nombre_tf" layoutX="8.0" layoutY="48.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="45.0" />
+            <Label layoutX="16.0" layoutY="77.0" text="Ingresar Codigo:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="75.0" />
+            <TextField fx:id="codigo_tf" layoutX="8.0" layoutY="105.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="95.0" />
+            <Label layoutX="16.0" layoutY="139.0" text="Elegir Categoria:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="125.0" />
+            <ChoiceBox fx:id="categoria_cb" layoutX="9.0" layoutY="162.0" prefWidth="150.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="145.0" />
+            <Label layoutX="19.0" layoutY="199.0" text="Ingresar Precio:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="175.0" />
+            <TextField fx:id="precio_tf" layoutX="8.0" layoutY="219.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="195.0" />
+            <Label layoutX="296.0" layoutY="26.0" text="Ingresar Descripción:" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="25.0" />
+            <TextArea fx:id="descripcion_ta" layoutX="296.0" layoutY="53.0" prefHeight="64.0" prefWidth="171.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="45.0" />
+            <Button fx:id="cargarImagen_bt" layoutX="334.0" layoutY="174.0" mnemonicParsing="false" onAction="#cargarImageProducto" style="-fx-background-color: #86895d;" text="Cargar Imagen" textFill="WHITE" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="175.0" />
+            <Label layoutX="303.0" layoutY="139.0" text="Establecer foto del producto: " AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="140.0" />
+            <Accordion />
+            <Button fx:id="principal_bt" layoutX="382.0" layoutY="255.0" mnemonicParsing="false" onAction="#irAprincipal" text="Volver a principal" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="30.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

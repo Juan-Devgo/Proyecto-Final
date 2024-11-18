@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="23.0.1" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.proyectofinal.Model.Producto" id="Producto0">
+  <void property="categoria">
+   <string>Vehículos</string>
+  </void>
+  <void property="codigo">
+   <string>00006</string>
+  </void>
+  <void property="descripcion">
+   <string>Una carcacha</string>
+  </void>
+  <void property="estado">
+   <object class="java.lang.Enum" id="EstadoProducto0" method="valueOf">
+    <class>co.edu.uniquindio.proyectofinal.Model.EstadoProducto</class>
+    <string>PUBLICADO</string>
+   </object>
+  </void>
+  <void property="fechaPublicacion">
+   <string>2024-11-17</string>
+  </void>
+  <void property="horaPublicacion">
+   <string>22:36:10.654621</string>
+  </void>
+  <void property="nombre">
+   <string>MT15</string>
+  </void>
+  <void property="precio">
+   <double>1.0</double>
+  </void>
+  <void property="rutaImagen">
+   <string>file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre%204/Programación%20III/Proyecto%20Final/src/main/resources/imagenes/mt15.png</string>
+  </void>
+  <void property="vendedor">
+   <object class="co.edu.uniquindio.proyectofinal.Model.Vendedor" id="Vendedor0">
+    <void property="apellido">
+     <string>García Nieto</string>
+    </void>
+    <void property="cedula">
+     <string>1137059459</string>
+    </void>
+    <void property="direccion">
+     <string>Circasia, Quindío</string>
+    </void>
+    <void property="nombre">
+     <string>Juan Diego</string>
+    </void>
+    <void property="productos">
+     <void method="add">
+      <object class="co.edu.uniquindio.proyectofinal.Model.Producto">
+       <void property="categoria">
+        <string>Vehículos</string>
+       </void>
+       <void property="codigo">
+        <string>00002</string>
+       </void>
+       <void property="descripcion">
+        <string>Una carcacha</string>
+       </void>
+       <void property="estado">
+        <object idref="EstadoProducto0"/>
+       </void>
+       <void property="fechaPublicacion">
+        <string>2024-11-16</string>
+       </void>
+       <void property="horaPublicacion">
+        <string>19:49:27.2250561</string>
+       </void>
+       <void property="nombre">
+        <string>MT15</string>
+       </void>
+       <void property="precio">
+        <double>1.0</double>
+       </void>
+       <void property="rutaImagen">
+        <string>file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre%204/Programación%20III/Proyecto%20Final/src/main/resources/imagenes/mt15.png</string>
+       </void>
+       <void property="vendedor">
+        <object idref="Vendedor0"/>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="co.edu.uniquindio.proyectofinal.Model.Producto">
+       <void property="categoria">
+        <string>Hogar</string>
+       </void>
+       <void property="codigo">
+        <string>00005</string>
+       </void>
+       <void property="descripcion">
+        <string>Enpolvada y sucia, pero nueva</string>
+       </void>
+       <void property="estado">
+        <object class="java.lang.Enum" method="valueOf">
+         <class>co.edu.uniquindio.proyectofinal.Model.EstadoProducto</class>
+         <string>VENDIDO</string>
+        </object>
+       </void>
+       <void property="fechaPublicacion">
+        <string>2024-11-16</string>
+       </void>
+       <void property="horaPublicacion">
+        <string>19:59:07.9552921</string>
+       </void>
+       <void property="nombre">
+        <string>Caja nueva</string>
+       </void>
+       <void property="precio">
+        <double>30000.0</double>
+       </void>
+       <void property="rutaImagen">
+        <string>file:/C:/Users/juand/OneDrive/Escritorio/Uniquindío/Semestre 4/Programación III/Proyecto Final/src/main/resources/imagenes/productoPredeterminado.png</string>
+       </void>
+       <void property="vendedor">
+        <object idref="Vendedor0"/>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object idref="Producto0"/>
+     </void>
+    </void>
+    <void property="rutaImagen">
+     <string>file:/C:/Users/juand/OneDrive/Imágenes/god%20tears.jpg</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

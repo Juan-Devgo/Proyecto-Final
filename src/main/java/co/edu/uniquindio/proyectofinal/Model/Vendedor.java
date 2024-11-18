@@ -15,6 +15,7 @@ import co.edu.uniquindio.proyectofinal.Model.Exceptions.*;
 
 public class Vendedor extends Usuario {
     private String direccion;
+    private String rutaImagen;
     private LinkedList<Producto> productos;
     private LinkedList<Vendedor> aliados;
     private LinkedList<Vendedor> sugerencias;
@@ -171,9 +172,16 @@ public class Vendedor extends Usuario {
         return chats.stream().filter(condicion).findAny();
     }
 
-    private Optional<Comentario> buscarResenia(Vendedor vendedor) {
+    //Métodos públicos para validaciones.
+
+    public Optional<Comentario> buscarResenia(Vendedor vendedor) {
         Predicate<Comentario> condicion = resenia -> resenia.getEmisor().equals(vendedor);
         return resenias.stream().filter(condicion).findAny();
+    }
+
+    public Optional<Usuario> buscarLikePorCedula(String cedula) {
+        Predicate<Usuario> condicion = like -> like.getCedula().equals(cedula);
+        return likes.stream().filter(condicion).findAny();
     }
 
     
@@ -191,7 +199,8 @@ public class Vendedor extends Usuario {
     }
 
     //Agregar nuevo aliado
-    public void agregarAliado(Vendedor vendedor) {
+    public void agregarAliado(Vendedor vendedor, int puertoServerSocket, int puertoSocket) {
+
         if(vendedor == null){
             throw new DatoNuloException();
         }
@@ -207,7 +216,7 @@ public class Vendedor extends Usuario {
         aliados.add(vendedor);
         actualizarSugerencias();
         aliados.forEach(Vendedor::actualizarSugerencias);
-        agregarChat(vendedor);
+        agregarChat(vendedor, puertoServerSocket, puertoSocket);
     }
 
     //Eliminar aliado
@@ -227,7 +236,7 @@ public class Vendedor extends Usuario {
     }
 
     //Agregar chat
-    private void agregarChat(Vendedor vendedor) {
+    private void agregarChat(Vendedor vendedor, int puertoServerSocket, int puertoSocket) {
         if(vendedor == null){
             throw new DatoNuloException();
         }
@@ -236,7 +245,7 @@ public class Vendedor extends Usuario {
             throw new ChatExistenteException();
         }
 
-        chats.add(new Chat(vendedor));
+        chats.add(new Chat(vendedor, puertoSocket, puertoServerSocket));
     }
 
     //Eliminar chat
@@ -328,7 +337,7 @@ public class Vendedor extends Usuario {
 
     //Recibir Like
     public void recibirLike(Usuario emisor) {
-        if(likes.contains(emisor)){
+        if(buscarLikePorCedula(emisor.getCedula()).isPresent()){
             throw new LikeException();
         }
         likes.add(emisor);
@@ -336,15 +345,14 @@ public class Vendedor extends Usuario {
 
     //Perder like
     public void perderLike(Usuario emisor) {
-        if(!likes.contains(emisor)){
+        if(buscarLikePorCedula(emisor.getCedula()).isEmpty()){
             throw new LikeException();
         }
         likes.remove(emisor);
     }
 
     //Agregar nueva solicitud de vínculo
-    public boolean agregarSolicitudVinculo(Vendedor emisor) {
-        boolean disponible = false;
+    public void agregarSolicitudVinculo(Vendedor emisor) {
 
         if(emisor == null){
             throw new DatoNuloException();
@@ -358,22 +366,30 @@ public class Vendedor extends Usuario {
             throw new SolicitudExistenteException();
         }
 
-        if(aliados.size() < 10){
-            disponible = true;
-            solicitudes.add(new SolicitudVinculo(emisor));
+        if(aliados.size() >= 10){
+            throw new VendedorMaxAliadosException();
         }
 
-        return disponible;
+        solicitudes.add(new SolicitudVinculo(emisor));
     }
 
     //Aceptar Solicitud de vínculo
     public void aceptarSolicitudVinculo(SolicitudVinculo solicitud) {
         try {
-            this.agregarAliado(solicitud.getEmisor());
-            solicitud.getEmisor().agregarAliado(this);    
+            int puertoSocket = 65001; int puertoServerSocket = 65002;
+
+            this.agregarAliado(solicitud.getEmisor(), puertoServerSocket, puertoSocket);
+            solicitud.getEmisor().agregarAliado(this, puertoSocket, puertoServerSocket);    
         } catch (VendedorMaxAliadosException e) {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
+
+        solicitudes.remove(solicitud);
+        solicitud = null;
+    }
+
+    //Rechazar Solicitud de vínculo
+    public void eliminarSolicitudVinculo(SolicitudVinculo solicitud) {
 
         solicitudes.remove(solicitud);
         solicitud = null;
@@ -394,6 +410,9 @@ public class Vendedor extends Usuario {
     public String getDireccion() {
         return direccion;
     }
+    public String getRutaImagen() {
+        return rutaImagen;
+    }
     public LinkedList<Vendedor> getAliados() {
         return aliados;
     }
@@ -409,10 +428,10 @@ public class Vendedor extends Usuario {
     public LinkedList<Comentario> getResenias() {
         return resenias;
     }
-    public int getLikes() {
+    public int getCantidadLikes() {
         return likes.size();
     }
-    public LinkedList<Usuario> getUsuariosLikes() {
+    public LinkedList<Usuario> getLikes() {
         return likes;
     }
     public LinkedList<Chat> getChats() {
@@ -425,6 +444,13 @@ public class Vendedor extends Usuario {
             throw new CadenaInvalidaException();
         }
         this.direccion = direccion;
+    }
+
+    public void setRutaImagen(String rutaImagen) {
+        if(rutaImagen == null || rutaImagen.isBlank()){
+            throw new CadenaInvalidaException();
+        }
+        this.rutaImagen = rutaImagen;
     }
 
     public void setAliados(LinkedList<Vendedor> aliados) {

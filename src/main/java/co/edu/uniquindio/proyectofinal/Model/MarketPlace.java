@@ -21,6 +21,8 @@ public class MarketPlace implements GestionMarketPlace {
 
     private static final Utilidades utilidades = Utilidades.getInstancia();
 
+    private final HiloPersistencia hiloPersistencia;
+
     private final Servidor servidor;
 
     public MarketPlace(String nombre) {
@@ -34,11 +36,16 @@ public class MarketPlace implements GestionMarketPlace {
         this.usuarios = new LinkedList<>();
         this.productos = new LinkedList<>();
 
+        this.hiloPersistencia = HiloPersistencia.getInstancia(this);
+
+
         this.servidor = new Servidor();
         new Thread(servidor).start();
 
         try {
             inicializarPersistencia();
+            Thread.sleep(50);
+            new Thread(hiloPersistencia).start();
         } catch (Exception e) {
             utilidades.log(Level.SEVERE, "Ha ocurrido un error inesperado.");
             JOptionPane.showMessageDialog(null, e.getMessage());
@@ -266,6 +273,22 @@ public class MarketPlace implements GestionMarketPlace {
     }
 
     @Override
+    public void eliminarSolicitud(Vendedor receptor, SolicitudVinculo solicitud){
+        
+        if(solicitud == null || receptor == null){
+            utilidades.log(Level.SEVERE, "Ha ocurrido un error por un dato nulo.");
+            throw new DatoNuloException();
+        }
+
+        if(!receptor.getSolicitudes().contains(solicitud)){
+            utilidades.log(Level.SEVERE, "Ha ocurrido un error porque la solicitud de vinculo no fue enconntrada.");
+            throw new SolicitudNoExistenteException();
+        }
+        receptor.eliminarSolicitudVinculo(solicitud);
+        utilidades.log("Solicitud de vinculo aceptada");
+    }
+
+    @Override
     public void eliminarProducto(Vendedor vendedor, Producto producto) {
         if(vendedor == null || producto == null){
             utilidades.log(Level.SEVERE, "Ha ocurrido un error por un dato nulo.");
@@ -291,15 +314,19 @@ public class MarketPlace implements GestionMarketPlace {
     //Requisito RF-003
 
     @Override
-    public boolean solicitarVinculoVendedor(Vendedor emisor, Vendedor receptor) {
-        utilidades.log("Solicitud de vinculo enviada.");
-        return receptor.agregarSolicitudVinculo(emisor);
+    public void solicitarVinculoVendedor(Vendedor emisor, Vendedor receptor) {
+        try{
+            utilidades.log("Solicitud de vinculo enviada.");
+            receptor.agregarSolicitudVinculo(emisor);
+        } catch (VendedorMaxAliadosException e) {
+            JOptionPane.showMessageDialog(null, e.getMessage(), "Enviar solicitud", JOptionPane.INFORMATION_MESSAGE);
+        }
     }
 
     @Override
     public void aceptarVinculoVendedor(Vendedor receptor, SolicitudVinculo solicitud) {
         if(!receptor.getSolicitudes().contains(solicitud)){
-            utilidades.log("Ha ocurrido un error porque la solicitud de vinculo no fue enconntrada.");
+            utilidades.log(Level.SEVERE, "Ha ocurrido un error porque la solicitud de vinculo no fue enconntrada.");
             throw new SolicitudNoExistenteException();
         }
         receptor.aceptarSolicitudVinculo(solicitud);
@@ -347,8 +374,6 @@ public class MarketPlace implements GestionMarketPlace {
         utilidades.log("Administrador se ha loggeado correctamente...");
         return buscarAdministradorPorCedula(cedula).get();
     }
-
-    
      
     @Override
     public Vendedor loginVendedor(String cedula) {
@@ -383,8 +408,22 @@ public class MarketPlace implements GestionMarketPlace {
 
     @Override
     public LinkedList<Producto> buscarProductosPorCategoria(String categoria) {
-        utilidades.log("Buscando producto por categoría..."); 
+        utilidades.log("Buscando productos por categoría..."); 
         Predicate<Producto> condicion = producto -> producto.getCategoria().equals(categoria);
+        return productos.stream().filter(condicion).collect(Collectors.toCollection(LinkedList::new));
+    }
+
+    @Override
+    public LinkedList<Producto> buscarProductosPorNombre(String nombre) {
+        utilidades.log("Buscando varios productos por nombre..."); 
+        Predicate<Producto> condicion = producto -> producto.getNombre().contains(nombre);
+        return productos.stream().filter(condicion).collect(Collectors.toCollection(LinkedList::new));
+    }
+
+    @Override
+    public LinkedList<Producto> buscarProductosPorCodigo(String codigo) {
+        utilidades.log("Buscando varios productos por código..."); 
+        Predicate<Producto> condicion = producto -> producto.getCodigo().contains(codigo);
         return productos.stream().filter(condicion).collect(Collectors.toCollection(LinkedList::new));
     }
 
@@ -400,6 +439,20 @@ public class MarketPlace implements GestionMarketPlace {
         utilidades.log("Buscando Vendedor por cédula...");
         Predicate<Usuario> condicion = vendedor -> vendedor.getCedula().equals(cedula);
         return usuarios.stream().filter(condicion).filter(Vendedor.class::isInstance).map(Vendedor.class::cast).findAny();
+    }
+
+    @Override
+    public LinkedList<Vendedor> buscarVendedoresPorNombre(String nombre) {
+        utilidades.log("Buscando varios vendedores por nombre..."); 
+        Predicate<Usuario> condicion = usuario -> ((usuario.getNombre() + usuario.getApellido()).toLowerCase()).contains(nombre.toLowerCase());
+        return usuarios.stream().filter(condicion).filter(Vendedor.class::isInstance).map(Vendedor.class::cast).collect(Collectors.toCollection(LinkedList::new));
+    }
+
+    @Override
+    public LinkedList<Vendedor> buscarVendedoresPorCedula(String cedula) {
+        utilidades.log("Buscando varios vendedores por cedula..."); 
+        Predicate<Usuario> condicion = usuario -> usuario.getCedula().contains(cedula);
+        return usuarios.stream().filter(condicion).filter(Vendedor.class::isInstance).map(Vendedor.class::cast).collect(Collectors.toCollection(LinkedList::new));
     }
 
     @Override

@@ -4,7 +4,9 @@ module co.edu.uniquindio.proyectofinal {
     requires java.desktop;
     requires java.logging;
     requires javafx.base;
-
+    requires javafx.graphics;
+    requires javafx.web;
+    requires org.json;
 
     opens co.edu.uniquindio.proyectofinal to javafx.fxml;
     exports co.edu.uniquindio.proyectofinal;

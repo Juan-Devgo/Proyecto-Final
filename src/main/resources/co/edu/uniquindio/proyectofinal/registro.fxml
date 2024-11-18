@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.Controller.RegistroController">
+   <children>
+      <Button fx:id="registrarse_bt" layoutX="131.0" layoutY="410.0" mnemonicParsing="false" onAction="#registrarUsuario" style="-fx-background-color: #90a955;" text="Registrarse" textFill="WHITE" />
+      <ChoiceBox fx:id="tipoUsuario_cb" layoutX="93.0" layoutY="126.0" prefWidth="150.0" />
+      <Label layoutX="68.0" layoutY="103.0" text="Por favor seleccione el tipo de usuario" />
+      <Label layoutX="117.0" layoutY="158.0" text="Ingrese su nombre " />
+      <Label layoutX="118.0" layoutY="204.0" text="Ingrese su apellido" />
+      <Label layoutX="106.0" layoutY="250.0" text="Ingrese su identificación" />
+      <TextField fx:id="nombre_tf" layoutX="93.0" layoutY="179.0" />
+      <TextField fx:id="apellido_tf" layoutX="94.0" layoutY="224.0" />
+      <TextField fx:id="identificacion_tf" layoutX="94.0" layoutY="269.0" />
+      <Label layoutX="42.0" layoutY="24.0" text="Si ya tiene una cuenta entonces regrese a Login" />
+      <Button fx:id="login_bt" layoutX="146.0" layoutY="55.0" mnemonicParsing="false" onAction="#irALogin" style="-fx-background-color: #54582a;" text="Login" textFill="WHITE" />
+      <Label layoutX="116.0" layoutY="294.0" text="Ingrese su dirección" />
+      <TextField fx:id="direccion_tf" layoutX="94.0" layoutY="314.0" />
+      <Label layoutX="73.0" layoutY="350.0" text="Por favor ingrese una foto para su perfil" />
+      <Button fx:id="cargarImagen_bt" layoutX="123.0" layoutY="376.0" mnemonicParsing="false" onAction="#cargarImagenPerfil" style="-fx-background-color: #e0e0e0;" text="Cargar imagen" />
+   </children>
+</AnchorPane>

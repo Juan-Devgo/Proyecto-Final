@@ -26,7 +26,6 @@ public class Servidor implements Runnable {
                 clientes.add(serverSocket.accept());
                 DataInputStream dis = new DataInputStream(clientes.getLast().getInputStream());
                 utilidades.log("Servidor: " + dis.readUTF() + ". Recibido");
-
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

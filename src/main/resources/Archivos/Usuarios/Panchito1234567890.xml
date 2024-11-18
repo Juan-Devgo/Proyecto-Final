@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="23.0.1" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.proyectofinal.Model.Administrador">
+  <void property="apellido">
+   <string>García</string>
+  </void>
+  <void property="cedula">
+   <string>1234567890</string>
+  </void>
+  <void property="nombre">
+   <string>Panchito</string>
+  </void>
+ </object>
+</java>
